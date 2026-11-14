@@ -1,0 +1,18 @@
+{
+  "name": "near-polygraph",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Polygraph — Evidence-gated milestone security protocol for Sputnik DAO v2 on NEAR",
+  "workspaces": [
+    "verifier",
+    "web"
+  ],
+  "scripts": {
+    "dev": "npm --workspace=web run dev",
+    "build": "npm --workspace=verifier run build && npm --workspace=web run build",
+    "preview": "npm --workspace=web run preview",
+    "verify:sybil": "npm --workspace=verifier run verify -- --offline --fixture ../fixtures/sybil-contract.json --out ../web/public/reports/sybil-report.json",
+    "verify:organic": "npm --workspace=verifier run verify -- --offline --fixture ../fixtures/organic-contract.json --out ../web/public/reports/organic-report.json",
+    "test": "npm --workspace=verifier run typecheck && npm --workspace=verifier test && npm --workspace=web run typecheck"
+  }
+}

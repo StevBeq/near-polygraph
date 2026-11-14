@@ -164,11 +164,16 @@ near view polygraph-dao-v1.sputnikv2.testnet get_proposal '{"id":1}' --networkId
 
 ### Test 5 — Read-Only Evidence Explorer (`web/`)
 
+Run directly from the repository root (`near-polygraph/`):
+```bash
+npm install && npm run dev
+```
+Or build and preview `web/` standalone:
 ```bash
 cd web && npm install && npm run build && npm run preview
 ```
 
-Opens the zero-wallet-login Evidence Explorer rendering Claim #0 vs Claim #1 scorecards, $H_1 / H_2 / H_3$ breakdowns, Funding Cluster table, full SHA-256 verification badge matched live against `polygraph-gate-v1.testnet`, and NearBlocks Testnet links.
+Opens the zero-wallet-login Evidence Explorer rendering Claim #0 vs Claim #1 scorecards, $H_1 / H_2 / H_3$ breakdowns, Funding Cluster table, full SHA-256 verification badge matched live against `polygraph-gate-v1.testnet`, live Sputnik DAO v2 Proposal #1 status on `polygraph-dao-v1.sputnikv2.testnet`, and NearBlocks Testnet links.
 
 ---
 
@@ -206,6 +211,7 @@ Opens the zero-wallet-login Evidence Explorer rendering Claim #0 vs Claim #1 sco
 
 ```text
 near-polygraph/
+├── package.json                   # Root workspace scripts (dev, build, test, verify:*)
 ├── LICENSE                        # MIT License (Hackathon Rule Q-014)
 ├── README.md                      # Documentation & reproducible audit guide
 ├── HACKATHON.md                   # Hackathon submission contract & safety rules

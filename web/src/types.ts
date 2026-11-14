@@ -67,6 +67,20 @@ export interface OnChainClaim {
   dao_proposal_id: number | null;
 }
 
+export interface DaoProposal {
+  id: number;
+  proposer: string;
+  description: string;
+  status: string;
+  kind?: {
+    Transfer?: {
+      token_id: string;
+      receiver_id: string;
+      amount: string;
+    };
+  };
+}
+
 export interface DemoProofTx {
   claimId: number;
   submitTx: string;

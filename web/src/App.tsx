@@ -6,8 +6,9 @@ import {
   RECORDED_TESTNET_PROOFS,
   REPORT_PRESETS,
 } from "./config";
-import { fetchOnChainClaims } from "./nearRpc";
+import { fetchDaoProposal, fetchOnChainClaims } from "./nearRpc";
 import type {
+  DaoProposal,
   EvidenceReportArtifact,
   HeuristicReason,
   OnChainClaim,
@@ -39,6 +40,7 @@ export default function App() {
   >({});
   const [reportError, setReportError] = useState<string | null>(null);
   const [onChainClaims, setOnChainClaims] = useState<OnChainClaim[]>([]);
+  const [daoProposals, setDaoProposals] = useState<Record<number, DaoProposal>>({});
   const [rpcState, setRpcState] = useState<{
     mode: "loading" | "live" | "fallback";
     blockHeight: number | null;
@@ -76,7 +78,7 @@ export default function App() {
       });
 
     fetchOnChainClaims()
-      .then(({ claims, blockHeight }) => {
+      .then(async ({ claims, blockHeight }) => {
         if (!active) return;
         setOnChainClaims(claims);
         setRpcState({
@@ -84,6 +86,24 @@ export default function App() {
           blockHeight,
           note: `Live NEAR Testnet RPC · ${GATE_CONTRACT_ID}${blockHeight ? ` (#${blockHeight})` : ""}`,
         });
+
+        const proposalIds = claims
+          .map((c) => c.dao_proposal_id)
+          .filter((id): id is number => id !== null && id !== undefined);
+
+        if (proposalIds.length > 0) {
+          const settled = await Promise.allSettled(
+            proposalIds.map(async (id) => [id, await fetchDaoProposal(id)] as const)
+          );
+          if (!active) return;
+          const map: Record<number, DaoProposal> = {};
+          for (const res of settled) {
+            if (res.status === "fulfilled") {
+              map[res.value[0]] = res.value[1];
+            }
+          }
+          setDaoProposals(map);
+        }
       })
       .catch((err) => {
         if (!active) return;
@@ -109,6 +129,11 @@ export default function App() {
     return onChainClaims.find((c) => c.claim_id === activeReport.claim_id);
   }, [onChainClaims, activeReport]);
 
+  const matchingDaoProposal =
+    matchingChainClaim?.dao_proposal_id != null
+      ? daoProposals[matchingChainClaim.dao_proposal_id]
+      : undefined;
+
   const filteredFlagged = useMemo(() => {
     if (!activeReport) return [];
     if (reasonFilter === "ALL") return activeReport.flagged_accounts;
@@ -117,7 +142,7 @@ export default function App() {
     );
   }, [activeReport, reasonFilter]);
 
-  const cliCommand = `cd verifier && npm run verify -- --offline --fixture ${activePreset.fixtureCliPath}`;
+  const cliCommand = `npm run verify:${activePreset.id}`;
 
   const handleCopyCli = async () => {
     try {
@@ -576,6 +601,46 @@ export default function App() {
                       }}
                     >
                       {matchingChainClaim.evidence_hash ?? "None"}
+                    </div>
+                  </div>
+                </div>
+              )}
+
+              {matchingDaoProposal && (
+                <div className="stat-card">
+                  <div className="panel-header" style={{ marginBottom: "8px" }}>
+                    <span className="stat-label">
+                      Live Sputnik DAO v2 Proposal #{matchingDaoProposal.id} (
+                      {DAO_CONTRACT_ID})
+                    </span>
+                    <span className="pill pill-verified">
+                      Status: {matchingDaoProposal.status}
+                    </span>
+                  </div>
+                  <div
+                    className="mono"
+                    style={{
+                      fontSize: "12px",
+                      color: "var(--text-secondary)",
+                      display: "grid",
+                      gap: "4px",
+                    }}
+                  >
+                    <div>
+                      <strong>Proposer:</strong> {matchingDaoProposal.proposer}
+                    </div>
+                    {matchingDaoProposal.kind?.Transfer && (
+                      <div>
+                        <strong>Action::Transfer:</strong>{" "}
+                        {formatNearYocto(
+                          matchingDaoProposal.kind.Transfer.amount
+                        )}{" "}
+                        → {matchingDaoProposal.kind.Transfer.receiver_id}
+                      </div>
+                    )}
+                    <div style={{ wordBreak: "break-word" }}>
+                      <strong>Proposal Description:</strong>{" "}
+                      {matchingDaoProposal.description}
                     </div>
                   </div>
                 </div>
