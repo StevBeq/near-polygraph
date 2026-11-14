@@ -1,0 +1,93 @@
+{
+  "schema_version": "polygraph-evidence-v1",
+  "claim_id": 1,
+  "target_contract": "organic-dapp.near",
+  "block_window": {
+    "start_block": 131000000,
+    "end_block": 131050000
+  },
+  "thresholds": {
+    "min_score_bps": 7000
+  },
+  "metrics": {
+    "raw_users": 50,
+    "effective_organic_users": 42,
+    "sybil_discounted_users": 8,
+    "score_bps": 8400,
+    "verdict": "VERIFIED"
+  },
+  "heuristic_breakdown": {
+    "h1_funder_clusters": [
+      {
+        "funder_account_id": "qa-team-funder.near",
+        "total_funded_callers": 4,
+        "retained_account": "qa-wallet-01.near",
+        "discounted_accounts": [
+          "qa-wallet-02.near",
+          "qa-wallet-03.near",
+          "qa-wallet-04.near"
+        ]
+      }
+    ],
+    "h2_ephemeral_burners": [
+      "promo-hunter-01.near",
+      "promo-hunter-02.near",
+      "promo-hunter-03.near"
+    ],
+    "h3_uniformity_flagged": [
+      "keeper-cron-01.near",
+      "keeper-cron-02.near"
+    ]
+  },
+  "flagged_accounts": [
+    {
+      "account_id": "keeper-cron-01.near",
+      "reasons": [
+        "H3_ROBOTIC_UNIFORMITY"
+      ]
+    },
+    {
+      "account_id": "keeper-cron-02.near",
+      "reasons": [
+        "H3_ROBOTIC_UNIFORMITY"
+      ]
+    },
+    {
+      "account_id": "promo-hunter-01.near",
+      "reasons": [
+        "H2_EPHEMERAL_BURNER"
+      ]
+    },
+    {
+      "account_id": "promo-hunter-02.near",
+      "reasons": [
+        "H2_EPHEMERAL_BURNER"
+      ]
+    },
+    {
+      "account_id": "promo-hunter-03.near",
+      "reasons": [
+        "H2_EPHEMERAL_BURNER"
+      ]
+    },
+    {
+      "account_id": "qa-wallet-02.near",
+      "reasons": [
+        "H1_FUNDER_CLUSTER"
+      ]
+    },
+    {
+      "account_id": "qa-wallet-03.near",
+      "reasons": [
+        "H1_FUNDER_CLUSTER"
+      ]
+    },
+    {
+      "account_id": "qa-wallet-04.near",
+      "reasons": [
+        "H1_FUNDER_CLUSTER"
+      ]
+    }
+  ],
+  "evidence_hash": "0609a83b307659e798213649391a6fa52275df5998f56babcce6076d911e6b13"
+}

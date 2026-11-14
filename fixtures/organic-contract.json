@@ -1,0 +1,1248 @@
+{
+  "claim_id": 1,
+  "target_contract": "organic-dapp.near",
+  "start_block": 131000000,
+  "end_block": 131050000,
+  "min_score_bps": 7000,
+  "known_exchange_funders": [
+    "binancecold3.near",
+    "okx.near",
+    "testnet"
+  ],
+  "callers": [
+    {
+      "account_id": "binance-user-01.near",
+      "funder_account_id": "binancecold3.near",
+      "account_created_at_sec": 1726612000,
+      "first_call_at_sec": 1730500423,
+      "total_contracts_called": 6,
+      "calls": [
+        {
+          "tx_hash": "2648684b65af686ab689e62ab75c70630397d005c1ad",
+          "block_height": 131001041,
+          "timestamp_sec": 1730500423,
+          "method_name": "deposit_and_stake",
+          "args_hash": "sha256:960eb44a226c9373",
+          "deposit_yocto": "500000000000000000000000"
+        }
+      ]
+    },
+    {
+      "account_id": "binance-user-02.near",
+      "funder_account_id": "binancecold3.near",
+      "account_created_at_sec": 1726180000,
+      "first_call_at_sec": 1730500846,
+      "total_contracts_called": 7,
+      "calls": [
+        {
+          "tx_hash": "3290be0dbaad9a1f4c6c49d78b37cafde4b0183cd0c5",
+          "block_height": 131001082,
+          "timestamp_sec": 1730500846,
+          "method_name": "deposit_and_stake",
+          "args_hash": "sha256:276cb56d400d04fc",
+          "deposit_yocto": "1000000000000000000000000"
+        }
+      ]
+    },
+    {
+      "account_id": "binance-user-03.near",
+      "funder_account_id": "binancecold3.near",
+      "account_created_at_sec": 1725748000,
+      "first_call_at_sec": 1730501269,
+      "total_contracts_called": 8,
+      "calls": [
+        {
+          "tx_hash": "878464d06ce4825731970a4cf906dbcee2743f30d36e",
+          "block_height": 131001123,
+          "timestamp_sec": 1730501269,
+          "method_name": "deposit_and_stake",
+          "args_hash": "sha256:43af1ae94cda1813",
+          "deposit_yocto": "1500000000000000000000000"
+        }
+      ]
+    },
+    {
+      "account_id": "binance-user-04.near",
+      "funder_account_id": "binancecold3.near",
+      "account_created_at_sec": 1725316000,
+      "first_call_at_sec": 1730501692,
+      "total_contracts_called": 9,
+      "calls": [
+        {
+          "tx_hash": "3622f8d8f7ac40e56f2ee7d8c5f21cab99f688ebe7de",
+          "block_height": 131001164,
+          "timestamp_sec": 1730501692,
+          "method_name": "deposit_and_stake",
+          "args_hash": "sha256:a4d98de8fc347f9f",
+          "deposit_yocto": "2000000000000000000000000"
+        }
+      ]
+    },
+    {
+      "account_id": "binance-user-05.near",
+      "funder_account_id": "binancecold3.near",
+      "account_created_at_sec": 1724884000,
+      "first_call_at_sec": 1730502115,
+      "total_contracts_called": 10,
+      "calls": [
+        {
+          "tx_hash": "4292bdad5c020bf3fd60c299051a911fe2ec8a810036",
+          "block_height": 131001205,
+          "timestamp_sec": 1730502115,
+          "method_name": "deposit_and_stake",
+          "args_hash": "sha256:a0cc100685eb4649",
+          "deposit_yocto": "2500000000000000000000000"
+        }
+      ]
+    },
+    {
+      "account_id": "binance-user-06.near",
+      "funder_account_id": "binancecold3.near",
+      "account_created_at_sec": 1724452000,
+      "first_call_at_sec": 1730502538,
+      "total_contracts_called": 11,
+      "calls": [
+        {
+          "tx_hash": "f61fcf24d791a899953b97f9df9738938486239eb095",
+          "block_height": 131001246,
+          "timestamp_sec": 1730502538,
+          "method_name": "deposit_and_stake",
+          "args_hash": "sha256:e16a4f41eeca6f42",
+          "deposit_yocto": "3000000000000000000000000"
+        }
+      ]
+    },
+    {
+      "account_id": "binance-user-07.near",
+      "funder_account_id": "binancecold3.near",
+      "account_created_at_sec": 1724020000,
+      "first_call_at_sec": 1730502961,
+      "total_contracts_called": 12,
+      "calls": [
+        {
+          "tx_hash": "4cffe8676f8872a272302cb8706d6a56a286fc058cc2",
+          "block_height": 131001287,
+          "timestamp_sec": 1730502961,
+          "method_name": "deposit_and_stake",
+          "args_hash": "sha256:0e7039406fdc5874",
+          "deposit_yocto": "3500000000000000000000000"
+        }
+      ]
+    },
+    {
+      "account_id": "binance-user-08.near",
+      "funder_account_id": "binancecold3.near",
+      "account_created_at_sec": 1723588000,
+      "first_call_at_sec": 1730503384,
+      "total_contracts_called": 13,
+      "calls": [
+        {
+          "tx_hash": "c0cf49aa6aa768504a469a0b247e94ec3f215715c76c",
+          "block_height": 131001328,
+          "timestamp_sec": 1730503384,
+          "method_name": "deposit_and_stake",
+          "args_hash": "sha256:6d2fd895006244cb",
+          "deposit_yocto": "4000000000000000000000000"
+        }
+      ]
+    },
+    {
+      "account_id": "binance-user-09.near",
+      "funder_account_id": "binancecold3.near",
+      "account_created_at_sec": 1723156000,
+      "first_call_at_sec": 1730503807,
+      "total_contracts_called": 14,
+      "calls": [
+        {
+          "tx_hash": "29f73da5dc7448161fa926de7e10af4b1973a333b741",
+          "block_height": 131001369,
+          "timestamp_sec": 1730503807,
+          "method_name": "deposit_and_stake",
+          "args_hash": "sha256:fb0c2fb0bb082625",
+          "deposit_yocto": "4500000000000000000000000"
+        }
+      ]
+    },
+    {
+      "account_id": "binance-user-10.near",
+      "funder_account_id": "binancecold3.near",
+      "account_created_at_sec": 1722724000,
+      "first_call_at_sec": 1730504230,
+      "total_contracts_called": 15,
+      "calls": [
+        {
+          "tx_hash": "37456ba9045594cb624175156c03531f07bd0416c765",
+          "block_height": 131001410,
+          "timestamp_sec": 1730504230,
+          "method_name": "deposit_and_stake",
+          "args_hash": "sha256:c51ecfbda7de8f26",
+          "deposit_yocto": "5000000000000000000000000"
+        }
+      ]
+    },
+    {
+      "account_id": "binance-user-11.near",
+      "funder_account_id": "binancecold3.near",
+      "account_created_at_sec": 1722292000,
+      "first_call_at_sec": 1730504653,
+      "total_contracts_called": 16,
+      "calls": [
+        {
+          "tx_hash": "e8350f24d10331da4cc6fdd5000874fa0d2d30a3811d",
+          "block_height": 131001451,
+          "timestamp_sec": 1730504653,
+          "method_name": "deposit_and_stake",
+          "args_hash": "sha256:9f2090b100f0a5fb",
+          "deposit_yocto": "5500000000000000000000000"
+        }
+      ]
+    },
+    {
+      "account_id": "binance-user-12.near",
+      "funder_account_id": "binancecold3.near",
+      "account_created_at_sec": 1721860000,
+      "first_call_at_sec": 1730505076,
+      "total_contracts_called": 17,
+      "calls": [
+        {
+          "tx_hash": "913174b9c171841fd17e848e529935cae8c25a13264b",
+          "block_height": 131001492,
+          "timestamp_sec": 1730505076,
+          "method_name": "deposit_and_stake",
+          "args_hash": "sha256:110e30092ade0459",
+          "deposit_yocto": "6000000000000000000000000"
+        }
+      ]
+    },
+    {
+      "account_id": "okx-user-01.near",
+      "funder_account_id": "okx.near",
+      "account_created_at_sec": 1725229600,
+      "first_call_at_sec": 1730506517,
+      "total_contracts_called": 8,
+      "calls": [
+        {
+          "tx_hash": "971bf73e5e84e7eb3533f93cd81cac446eaf98ada33a",
+          "block_height": 131008043,
+          "timestamp_sec": 1730506517,
+          "method_name": "submit_order",
+          "args_hash": "sha256:eea6f98f653ab65b",
+          "deposit_yocto": "300000000000000000000000"
+        }
+      ]
+    },
+    {
+      "account_id": "okx-user-02.near",
+      "funder_account_id": "okx.near",
+      "account_created_at_sec": 1724711200,
+      "first_call_at_sec": 1730507034,
+      "total_contracts_called": 9,
+      "calls": [
+        {
+          "tx_hash": "a687431c1b9b7d8da8446d595ad9ef8fb9c57849856c",
+          "block_height": 131008086,
+          "timestamp_sec": 1730507034,
+          "method_name": "submit_order",
+          "args_hash": "sha256:575a9b81a3b218ac",
+          "deposit_yocto": "600000000000000000000000"
+        }
+      ]
+    },
+    {
+      "account_id": "okx-user-03.near",
+      "funder_account_id": "okx.near",
+      "account_created_at_sec": 1724192800,
+      "first_call_at_sec": 1730507551,
+      "total_contracts_called": 10,
+      "calls": [
+        {
+          "tx_hash": "a5219fef5fb98d73f0a5e7a245f6987c4cc29596a647",
+          "block_height": 131008129,
+          "timestamp_sec": 1730507551,
+          "method_name": "submit_order",
+          "args_hash": "sha256:4fea261c9f7dd176",
+          "deposit_yocto": "900000000000000000000000"
+        }
+      ]
+    },
+    {
+      "account_id": "okx-user-04.near",
+      "funder_account_id": "okx.near",
+      "account_created_at_sec": 1723674400,
+      "first_call_at_sec": 1730508068,
+      "total_contracts_called": 11,
+      "calls": [
+        {
+          "tx_hash": "fc5cb1122745f38ce8992607b88833e297ee35884912",
+          "block_height": 131008172,
+          "timestamp_sec": 1730508068,
+          "method_name": "submit_order",
+          "args_hash": "sha256:da106a8fefe229ee",
+          "deposit_yocto": "1200000000000000000000000"
+        }
+      ]
+    },
+    {
+      "account_id": "okx-user-05.near",
+      "funder_account_id": "okx.near",
+      "account_created_at_sec": 1723156000,
+      "first_call_at_sec": 1730508585,
+      "total_contracts_called": 12,
+      "calls": [
+        {
+          "tx_hash": "a84bee2f341082a14cca811bcedaef10835359b813db",
+          "block_height": 131008215,
+          "timestamp_sec": 1730508585,
+          "method_name": "submit_order",
+          "args_hash": "sha256:b9e60f7e3177a3a2",
+          "deposit_yocto": "1500000000000000000000000"
+        }
+      ]
+    },
+    {
+      "account_id": "okx-user-06.near",
+      "funder_account_id": "okx.near",
+      "account_created_at_sec": 1722637600,
+      "first_call_at_sec": 1730509102,
+      "total_contracts_called": 13,
+      "calls": [
+        {
+          "tx_hash": "0de8a9c577941a114a7c896cd953950d80e37c690986",
+          "block_height": 131008258,
+          "timestamp_sec": 1730509102,
+          "method_name": "submit_order",
+          "args_hash": "sha256:36bb0a9a32b25043",
+          "deposit_yocto": "1800000000000000000000000"
+        }
+      ]
+    },
+    {
+      "account_id": "okx-user-07.near",
+      "funder_account_id": "okx.near",
+      "account_created_at_sec": 1722119200,
+      "first_call_at_sec": 1730509619,
+      "total_contracts_called": 14,
+      "calls": [
+        {
+          "tx_hash": "2d7a2decbe2eeabe332dc3142090bba3c3ce9ba6e4a0",
+          "block_height": 131008301,
+          "timestamp_sec": 1730509619,
+          "method_name": "submit_order",
+          "args_hash": "sha256:75796e561b2a7dcf",
+          "deposit_yocto": "2100000000000000000000000"
+        }
+      ]
+    },
+    {
+      "account_id": "okx-user-08.near",
+      "funder_account_id": "okx.near",
+      "account_created_at_sec": 1721600800,
+      "first_call_at_sec": 1730510136,
+      "total_contracts_called": 15,
+      "calls": [
+        {
+          "tx_hash": "e40732a9baca57105ff329ee4e502520433689d471bf",
+          "block_height": 131008344,
+          "timestamp_sec": 1730510136,
+          "method_name": "submit_order",
+          "args_hash": "sha256:7fdf5969be9e4c24",
+          "deposit_yocto": "2400000000000000000000000"
+        }
+      ]
+    },
+    {
+      "account_id": "community-builder-01.near",
+      "funder_account_id": "community-sponsor-01.near",
+      "account_created_at_sec": 1722378400,
+      "first_call_at_sec": 1730512719,
+      "total_contracts_called": 11,
+      "calls": [
+        {
+          "tx_hash": "48b81241cb1191d5f0248a3f9bbed5e635a73493f98a",
+          "block_height": 131015053,
+          "timestamp_sec": 1730512719,
+          "method_name": "create_vault",
+          "args_hash": "sha256:e3cff5c7c53aa987",
+          "deposit_yocto": "150000000000000000000000"
+        },
+        {
+          "tx_hash": "1df3a3fe79e088cfdb7e70fddf018d98b36262cf4db4",
+          "block_height": 131015088,
+          "timestamp_sec": 1730512760,
+          "method_name": "vote_gauge",
+          "args_hash": "sha256:fca1971d53ebfe44",
+          "deposit_yocto": "1"
+        },
+        {
+          "tx_hash": "e9508c180623c09effaf291f037b17e6681b569b0699",
+          "block_height": 131015573,
+          "timestamp_sec": 1730513309,
+          "method_name": "claim_yield",
+          "args_hash": "sha256:ddee4acceb4ad790",
+          "deposit_yocto": "0"
+        }
+      ]
+    },
+    {
+      "account_id": "community-builder-02.near",
+      "funder_account_id": "community-sponsor-01.near",
+      "account_created_at_sec": 1722032800,
+      "first_call_at_sec": 1730513438,
+      "total_contracts_called": 12,
+      "calls": [
+        {
+          "tx_hash": "76c8c1625cf9fb26623cfe8cf70f15332c020763ff3a",
+          "block_height": 131015106,
+          "timestamp_sec": 1730513438,
+          "method_name": "create_vault",
+          "args_hash": "sha256:06ba05d02fca01d3",
+          "deposit_yocto": "300000000000000000000000"
+        },
+        {
+          "tx_hash": "7289375bd03480b763b9d063b8add47b0d006c3c6b2d",
+          "block_height": 131015141,
+          "timestamp_sec": 1730513479,
+          "method_name": "vote_gauge",
+          "args_hash": "sha256:a01e8ef42020c6a5",
+          "deposit_yocto": "1"
+        },
+        {
+          "tx_hash": "dc15cc6d81683883c5547521bac086a46d338e047c0d",
+          "block_height": 131015626,
+          "timestamp_sec": 1730514028,
+          "method_name": "claim_yield",
+          "args_hash": "sha256:d3a8ec3758ad6e54",
+          "deposit_yocto": "0"
+        }
+      ]
+    },
+    {
+      "account_id": "community-builder-03.near",
+      "funder_account_id": "community-sponsor-02.near",
+      "account_created_at_sec": 1721687200,
+      "first_call_at_sec": 1730514157,
+      "total_contracts_called": 13,
+      "calls": [
+        {
+          "tx_hash": "bb3a57c3c8ea507343e757557348c6231e725ea95f39",
+          "block_height": 131015159,
+          "timestamp_sec": 1730514157,
+          "method_name": "create_vault",
+          "args_hash": "sha256:fd769511a17f0d39",
+          "deposit_yocto": "450000000000000000000000"
+        },
+        {
+          "tx_hash": "16f07b3c78ed931d29892e0d5f1ac3adc8e4755fbb12",
+          "block_height": 131015194,
+          "timestamp_sec": 1730514198,
+          "method_name": "vote_gauge",
+          "args_hash": "sha256:a8f3d4f2d00cf637",
+          "deposit_yocto": "1"
+        },
+        {
+          "tx_hash": "d1e9692b1797fa692ec6759a7b81a06a3464c158897f",
+          "block_height": 131015679,
+          "timestamp_sec": 1730514747,
+          "method_name": "claim_yield",
+          "args_hash": "sha256:5d308b177368d4e8",
+          "deposit_yocto": "0"
+        }
+      ]
+    },
+    {
+      "account_id": "community-builder-04.near",
+      "funder_account_id": "community-sponsor-02.near",
+      "account_created_at_sec": 1721341600,
+      "first_call_at_sec": 1730514876,
+      "total_contracts_called": 14,
+      "calls": [
+        {
+          "tx_hash": "926ff4de194a170ca1631ecf0f27dd2e24672229bba8",
+          "block_height": 131015212,
+          "timestamp_sec": 1730514876,
+          "method_name": "create_vault",
+          "args_hash": "sha256:347cffceca0424dc",
+          "deposit_yocto": "600000000000000000000000"
+        },
+        {
+          "tx_hash": "502f50f1bf2f58896c561165878f3d8571959dfb556e",
+          "block_height": 131015247,
+          "timestamp_sec": 1730514917,
+          "method_name": "vote_gauge",
+          "args_hash": "sha256:8e0f015f060205ea",
+          "deposit_yocto": "1"
+        },
+        {
+          "tx_hash": "0dedd3e5bd9c259f20ab68295182272e2a7f08631917",
+          "block_height": 131015732,
+          "timestamp_sec": 1730515466,
+          "method_name": "claim_yield",
+          "args_hash": "sha256:968e710c7d46825b",
+          "deposit_yocto": "0"
+        }
+      ]
+    },
+    {
+      "account_id": "community-builder-05.near",
+      "funder_account_id": "community-sponsor-03.near",
+      "account_created_at_sec": 1720996000,
+      "first_call_at_sec": 1730515595,
+      "total_contracts_called": 15,
+      "calls": [
+        {
+          "tx_hash": "184f7c813d95d8a602afbc249ed15413d355241b99b2",
+          "block_height": 131015265,
+          "timestamp_sec": 1730515595,
+          "method_name": "create_vault",
+          "args_hash": "sha256:0fdcf64b9c090f7a",
+          "deposit_yocto": "750000000000000000000000"
+        },
+        {
+          "tx_hash": "b146bd3223e735371f2070db1a64805944f6e41aba27",
+          "block_height": 131015300,
+          "timestamp_sec": 1730515636,
+          "method_name": "vote_gauge",
+          "args_hash": "sha256:eee8fff46718ebfa",
+          "deposit_yocto": "1"
+        },
+        {
+          "tx_hash": "234d7372333f5039b953746b96cad5e05637b2b47258",
+          "block_height": 131015785,
+          "timestamp_sec": 1730516185,
+          "method_name": "claim_yield",
+          "args_hash": "sha256:6f01d943a642522b",
+          "deposit_yocto": "0"
+        }
+      ]
+    },
+    {
+      "account_id": "community-builder-06.near",
+      "funder_account_id": "community-sponsor-03.near",
+      "account_created_at_sec": 1720650400,
+      "first_call_at_sec": 1730516314,
+      "total_contracts_called": 16,
+      "calls": [
+        {
+          "tx_hash": "2e2ed520803b900bad8ef568cf7d4a01a6242125b45b",
+          "block_height": 131015318,
+          "timestamp_sec": 1730516314,
+          "method_name": "create_vault",
+          "args_hash": "sha256:38fead9be2b21358",
+          "deposit_yocto": "900000000000000000000000"
+        },
+        {
+          "tx_hash": "15911202fccfce93c659eba444fdd146af805dcddbfe",
+          "block_height": 131015353,
+          "timestamp_sec": 1730516355,
+          "method_name": "vote_gauge",
+          "args_hash": "sha256:c539f538e67a1add",
+          "deposit_yocto": "1"
+        },
+        {
+          "tx_hash": "a569b67773df2da5796eb4f78d4e1332dd123da511cf",
+          "block_height": 131015838,
+          "timestamp_sec": 1730516904,
+          "method_name": "claim_yield",
+          "args_hash": "sha256:14b3a942a91b1e57",
+          "deposit_yocto": "0"
+        }
+      ]
+    },
+    {
+      "account_id": "community-builder-07.near",
+      "funder_account_id": "community-sponsor-04.near",
+      "account_created_at_sec": 1720304800,
+      "first_call_at_sec": 1730517033,
+      "total_contracts_called": 17,
+      "calls": [
+        {
+          "tx_hash": "888e5f75dc0f46e9f73d8514ad2588400610928b14a8",
+          "block_height": 131015371,
+          "timestamp_sec": 1730517033,
+          "method_name": "create_vault",
+          "args_hash": "sha256:71e8b5dfb3f1e057",
+          "deposit_yocto": "1050000000000000000000000"
+        },
+        {
+          "tx_hash": "33f66356301f3b05845ed06a37f33125681d54bfe8a6",
+          "block_height": 131015406,
+          "timestamp_sec": 1730517074,
+          "method_name": "vote_gauge",
+          "args_hash": "sha256:fa309a37272ab569",
+          "deposit_yocto": "1"
+        },
+        {
+          "tx_hash": "97d2270d62d16ee974ed7919b668232f5a5f81015115",
+          "block_height": 131015891,
+          "timestamp_sec": 1730517623,
+          "method_name": "claim_yield",
+          "args_hash": "sha256:39e56570cc410e65",
+          "deposit_yocto": "0"
+        }
+      ]
+    },
+    {
+      "account_id": "community-builder-08.near",
+      "funder_account_id": "community-sponsor-04.near",
+      "account_created_at_sec": 1719959200,
+      "first_call_at_sec": 1730517752,
+      "total_contracts_called": 18,
+      "calls": [
+        {
+          "tx_hash": "df401b28f52e87077638fff4f4640ec24e72e41bf72b",
+          "block_height": 131015424,
+          "timestamp_sec": 1730517752,
+          "method_name": "create_vault",
+          "args_hash": "sha256:345cd167dde1f17e",
+          "deposit_yocto": "1200000000000000000000000"
+        },
+        {
+          "tx_hash": "8c6d3903841f3123623cd8dd938fe75d1ca241688ba6",
+          "block_height": 131015459,
+          "timestamp_sec": 1730517793,
+          "method_name": "vote_gauge",
+          "args_hash": "sha256:9b8d387e72e85054",
+          "deposit_yocto": "1"
+        },
+        {
+          "tx_hash": "cdaac7e9690c76b62b834d04f845ef1a707dc6aedc7b",
+          "block_height": 131015944,
+          "timestamp_sec": 1730518342,
+          "method_name": "claim_yield",
+          "args_hash": "sha256:6e4ee8065e245533",
+          "deposit_yocto": "0"
+        }
+      ]
+    },
+    {
+      "account_id": "community-builder-09.near",
+      "funder_account_id": "community-sponsor-05.near",
+      "account_created_at_sec": 1719613600,
+      "first_call_at_sec": 1730518471,
+      "total_contracts_called": 19,
+      "calls": [
+        {
+          "tx_hash": "93d47a90168984af00379070a55a9415b3a773aa0f56",
+          "block_height": 131015477,
+          "timestamp_sec": 1730518471,
+          "method_name": "create_vault",
+          "args_hash": "sha256:b61cc3099bbfbfd7",
+          "deposit_yocto": "1350000000000000000000000"
+        },
+        {
+          "tx_hash": "0476237a844bb4e5d9456bca85535183eb161e9881d4",
+          "block_height": 131015512,
+          "timestamp_sec": 1730518512,
+          "method_name": "vote_gauge",
+          "args_hash": "sha256:dd612e36dcbc9278",
+          "deposit_yocto": "1"
+        },
+        {
+          "tx_hash": "e81f90f14e6d07325ff64d4b5f67439c0f6662e702d4",
+          "block_height": 131015997,
+          "timestamp_sec": 1730519061,
+          "method_name": "claim_yield",
+          "args_hash": "sha256:8b4c8aeeb33b14d9",
+          "deposit_yocto": "0"
+        }
+      ]
+    },
+    {
+      "account_id": "community-builder-10.near",
+      "funder_account_id": "community-sponsor-05.near",
+      "account_created_at_sec": 1719268000,
+      "first_call_at_sec": 1730519190,
+      "total_contracts_called": 20,
+      "calls": [
+        {
+          "tx_hash": "6beb0eb50c76188d52118c6964152edbc07a084d8335",
+          "block_height": 131015530,
+          "timestamp_sec": 1730519190,
+          "method_name": "create_vault",
+          "args_hash": "sha256:cc502a89a57400b3",
+          "deposit_yocto": "1500000000000000000000000"
+        },
+        {
+          "tx_hash": "cf891f363d101de5548f3cf83cdefdb4270aa07c6023",
+          "block_height": 131015565,
+          "timestamp_sec": 1730519231,
+          "method_name": "vote_gauge",
+          "args_hash": "sha256:7c5e808b1a4d1571",
+          "deposit_yocto": "1"
+        },
+        {
+          "tx_hash": "73011ab1da84a17602236702cb15ecdfc44033f3a0f0",
+          "block_height": 131016050,
+          "timestamp_sec": 1730519780,
+          "method_name": "claim_yield",
+          "args_hash": "sha256:43c139f824794431",
+          "deposit_yocto": "0"
+        }
+      ]
+    },
+    {
+      "account_id": "community-builder-11.near",
+      "funder_account_id": "community-sponsor-06.near",
+      "account_created_at_sec": 1718922400,
+      "first_call_at_sec": 1730519909,
+      "total_contracts_called": 21,
+      "calls": [
+        {
+          "tx_hash": "16e895c0cec203eb579142fcbd119991f9702fe19559",
+          "block_height": 131015583,
+          "timestamp_sec": 1730519909,
+          "method_name": "create_vault",
+          "args_hash": "sha256:a0a7b5771af93e67",
+          "deposit_yocto": "1650000000000000000000000"
+        },
+        {
+          "tx_hash": "a7ad9ae6d21d387e5e3a8511cc83ae132628e00e8d3b",
+          "block_height": 131015618,
+          "timestamp_sec": 1730519950,
+          "method_name": "vote_gauge",
+          "args_hash": "sha256:fdfed7bc78eb7682",
+          "deposit_yocto": "1"
+        },
+        {
+          "tx_hash": "7ab05a27aaa794851981cddf9f7666c3a2a5c5006abf",
+          "block_height": 131016103,
+          "timestamp_sec": 1730520499,
+          "method_name": "claim_yield",
+          "args_hash": "sha256:0c11d359613fbe2b",
+          "deposit_yocto": "0"
+        }
+      ]
+    },
+    {
+      "account_id": "community-builder-12.near",
+      "funder_account_id": "community-sponsor-06.near",
+      "account_created_at_sec": 1718576800,
+      "first_call_at_sec": 1730520628,
+      "total_contracts_called": 22,
+      "calls": [
+        {
+          "tx_hash": "090632c764b8d280533019d4f4dd88cb474294e05ec2",
+          "block_height": 131015636,
+          "timestamp_sec": 1730520628,
+          "method_name": "create_vault",
+          "args_hash": "sha256:e546c44f88e53eb8",
+          "deposit_yocto": "1800000000000000000000000"
+        },
+        {
+          "tx_hash": "3f28490f025a9e015314a01e56fea488e609ce9f7b6f",
+          "block_height": 131015671,
+          "timestamp_sec": 1730520669,
+          "method_name": "vote_gauge",
+          "args_hash": "sha256:cedeb8a53ca02567",
+          "deposit_yocto": "1"
+        },
+        {
+          "tx_hash": "cd26bddf4c9a0478bfc3a536de81a8e9e5a46f9bb267",
+          "block_height": 131016156,
+          "timestamp_sec": 1730521218,
+          "method_name": "claim_yield",
+          "args_hash": "sha256:c7226ce26ed58237",
+          "deposit_yocto": "0"
+        }
+      ]
+    },
+    {
+      "account_id": "community-builder-13.near",
+      "funder_account_id": "community-sponsor-07.near",
+      "account_created_at_sec": 1718231200,
+      "first_call_at_sec": 1730521347,
+      "total_contracts_called": 23,
+      "calls": [
+        {
+          "tx_hash": "41919a208c449f12b305d97a21ced32afc88c2cc60f1",
+          "block_height": 131015689,
+          "timestamp_sec": 1730521347,
+          "method_name": "create_vault",
+          "args_hash": "sha256:69609d29f1505187",
+          "deposit_yocto": "1950000000000000000000000"
+        },
+        {
+          "tx_hash": "c7493c238af29e49c16b98247f30a0475a29a82c054a",
+          "block_height": 131015724,
+          "timestamp_sec": 1730521388,
+          "method_name": "vote_gauge",
+          "args_hash": "sha256:bd72346cbadc70a2",
+          "deposit_yocto": "1"
+        },
+        {
+          "tx_hash": "6e762df6a991733e7015246cf53fe6b61cfd66c87840",
+          "block_height": 131016209,
+          "timestamp_sec": 1730521937,
+          "method_name": "claim_yield",
+          "args_hash": "sha256:32d84176ac50718b",
+          "deposit_yocto": "0"
+        }
+      ]
+    },
+    {
+      "account_id": "community-builder-14.near",
+      "funder_account_id": "community-sponsor-07.near",
+      "account_created_at_sec": 1717885600,
+      "first_call_at_sec": 1730522066,
+      "total_contracts_called": 24,
+      "calls": [
+        {
+          "tx_hash": "a6afc36811204704f4d9f4a9594b7c1292639b6aa5c5",
+          "block_height": 131015742,
+          "timestamp_sec": 1730522066,
+          "method_name": "create_vault",
+          "args_hash": "sha256:a5f4b62d5ab607bb",
+          "deposit_yocto": "2100000000000000000000000"
+        },
+        {
+          "tx_hash": "4d5f42e8fc01a08c031c85aaa2df932bc61c25777b0a",
+          "block_height": 131015777,
+          "timestamp_sec": 1730522107,
+          "method_name": "vote_gauge",
+          "args_hash": "sha256:7069d2abadacad7d",
+          "deposit_yocto": "1"
+        },
+        {
+          "tx_hash": "e0b931d7acb479a6701055a26ad0f0e7ef49dcc12fb4",
+          "block_height": 131016262,
+          "timestamp_sec": 1730522656,
+          "method_name": "claim_yield",
+          "args_hash": "sha256:ec5308b42e7aef0b",
+          "deposit_yocto": "0"
+        }
+      ]
+    },
+    {
+      "account_id": "community-builder-15.near",
+      "funder_account_id": "community-sponsor-08.near",
+      "account_created_at_sec": 1717540000,
+      "first_call_at_sec": 1730522785,
+      "total_contracts_called": 25,
+      "calls": [
+        {
+          "tx_hash": "56c139878c4f93327b66ed6004f8948147347d85ca50",
+          "block_height": 131015795,
+          "timestamp_sec": 1730522785,
+          "method_name": "create_vault",
+          "args_hash": "sha256:697fa4589c9c58fd",
+          "deposit_yocto": "2250000000000000000000000"
+        },
+        {
+          "tx_hash": "84ff354da285d60e02dbf5f74eee282cdf096251214c",
+          "block_height": 131015830,
+          "timestamp_sec": 1730522826,
+          "method_name": "vote_gauge",
+          "args_hash": "sha256:acf2622d2954c2ee",
+          "deposit_yocto": "1"
+        },
+        {
+          "tx_hash": "dc305f344ab4a6d6225029f562f43cc88d1a4468c6fe",
+          "block_height": 131016315,
+          "timestamp_sec": 1730523375,
+          "method_name": "claim_yield",
+          "args_hash": "sha256:ab78280d0c28bf9f",
+          "deposit_yocto": "0"
+        }
+      ]
+    },
+    {
+      "account_id": "community-builder-16.near",
+      "funder_account_id": "community-sponsor-08.near",
+      "account_created_at_sec": 1717194400,
+      "first_call_at_sec": 1730523504,
+      "total_contracts_called": 26,
+      "calls": [
+        {
+          "tx_hash": "4afd9829bd0cf383e35df67d2f20116d4882ebbbcb6c",
+          "block_height": 131015848,
+          "timestamp_sec": 1730523504,
+          "method_name": "create_vault",
+          "args_hash": "sha256:3acf0663959b4065",
+          "deposit_yocto": "2400000000000000000000000"
+        },
+        {
+          "tx_hash": "eb107a8661b8c582e7bf8d625a88ebcf2dfc4e62ffda",
+          "block_height": 131015883,
+          "timestamp_sec": 1730523545,
+          "method_name": "vote_gauge",
+          "args_hash": "sha256:2b3aea7d7229a603",
+          "deposit_yocto": "1"
+        },
+        {
+          "tx_hash": "a00e15cfc5e25b72cf4bd13b2059e02099430c8d688e",
+          "block_height": 131016368,
+          "timestamp_sec": 1730524094,
+          "method_name": "claim_yield",
+          "args_hash": "sha256:ee6cc68303f04d6a",
+          "deposit_yocto": "0"
+        }
+      ]
+    },
+    {
+      "account_id": "community-builder-17.near",
+      "funder_account_id": "community-sponsor-09.near",
+      "account_created_at_sec": 1716848800,
+      "first_call_at_sec": 1730524223,
+      "total_contracts_called": 27,
+      "calls": [
+        {
+          "tx_hash": "26342ecaac98110b2ee41cfe0766aed7ec79eb1696d2",
+          "block_height": 131015901,
+          "timestamp_sec": 1730524223,
+          "method_name": "create_vault",
+          "args_hash": "sha256:2c35cb558959e045",
+          "deposit_yocto": "2550000000000000000000000"
+        },
+        {
+          "tx_hash": "f8d050c85bb9125edb91df8a10c0cfb373993b36f509",
+          "block_height": 131015936,
+          "timestamp_sec": 1730524264,
+          "method_name": "vote_gauge",
+          "args_hash": "sha256:1951e5888ff4bad1",
+          "deposit_yocto": "1"
+        },
+        {
+          "tx_hash": "177a55265837650f07cf8e85d918787f28b50a4d3836",
+          "block_height": 131016421,
+          "timestamp_sec": 1730524813,
+          "method_name": "claim_yield",
+          "args_hash": "sha256:d1fc6849734a2c3e",
+          "deposit_yocto": "0"
+        }
+      ]
+    },
+    {
+      "account_id": "community-builder-18.near",
+      "funder_account_id": "community-sponsor-09.near",
+      "account_created_at_sec": 1716503200,
+      "first_call_at_sec": 1730524942,
+      "total_contracts_called": 28,
+      "calls": [
+        {
+          "tx_hash": "36db014e417dccf212a5ca3e155dd981c80f6a9fc1ca",
+          "block_height": 131015954,
+          "timestamp_sec": 1730524942,
+          "method_name": "create_vault",
+          "args_hash": "sha256:bc729ae66692f20d",
+          "deposit_yocto": "2700000000000000000000000"
+        },
+        {
+          "tx_hash": "0b539a99ac4b461379fb8428c3717668efbda0513f7a",
+          "block_height": 131015989,
+          "timestamp_sec": 1730524983,
+          "method_name": "vote_gauge",
+          "args_hash": "sha256:85aa5349b0754e3d",
+          "deposit_yocto": "1"
+        },
+        {
+          "tx_hash": "ffe81f0ddd6887dc7b1a2f3d7dd71882a7ed48b9099f",
+          "block_height": 131016474,
+          "timestamp_sec": 1730525532,
+          "method_name": "claim_yield",
+          "args_hash": "sha256:8747a29d7afcb74e",
+          "deposit_yocto": "0"
+        }
+      ]
+    },
+    {
+      "account_id": "community-builder-19.near",
+      "funder_account_id": "community-sponsor-10.near",
+      "account_created_at_sec": 1716157600,
+      "first_call_at_sec": 1730525661,
+      "total_contracts_called": 29,
+      "calls": [
+        {
+          "tx_hash": "798c4ababebcec79ac2b4a6ddd8482c56fba5d883f46",
+          "block_height": 131016007,
+          "timestamp_sec": 1730525661,
+          "method_name": "create_vault",
+          "args_hash": "sha256:e54f9a2948c4d87c",
+          "deposit_yocto": "2850000000000000000000000"
+        },
+        {
+          "tx_hash": "0ddac37304b2f05f549569cdff41beae727bfc474945",
+          "block_height": 131016042,
+          "timestamp_sec": 1730525702,
+          "method_name": "vote_gauge",
+          "args_hash": "sha256:a8eb89040ad7e495",
+          "deposit_yocto": "1"
+        },
+        {
+          "tx_hash": "3056bee3787591592a50e85d65f1b27b00209ad1fd64",
+          "block_height": 131016527,
+          "timestamp_sec": 1730526251,
+          "method_name": "claim_yield",
+          "args_hash": "sha256:6dd639393b49a78c",
+          "deposit_yocto": "0"
+        }
+      ]
+    },
+    {
+      "account_id": "community-builder-20.near",
+      "funder_account_id": "community-sponsor-10.near",
+      "account_created_at_sec": 1715812000,
+      "first_call_at_sec": 1730526380,
+      "total_contracts_called": 30,
+      "calls": [
+        {
+          "tx_hash": "821a8a5709488031b0bcc495250e04da8ad9aab300a3",
+          "block_height": 131016060,
+          "timestamp_sec": 1730526380,
+          "method_name": "create_vault",
+          "args_hash": "sha256:cb85c7958531edfe",
+          "deposit_yocto": "3000000000000000000000000"
+        },
+        {
+          "tx_hash": "86e01c7455f419eaa681421a8b164f4edd3af234e394",
+          "block_height": 131016095,
+          "timestamp_sec": 1730526421,
+          "method_name": "vote_gauge",
+          "args_hash": "sha256:b45b5b99c2e67ed7",
+          "deposit_yocto": "1"
+        },
+        {
+          "tx_hash": "2a4473c8fe5462bdff5b1449d3e6f2e1ac49cf306d1e",
+          "block_height": 131016580,
+          "timestamp_sec": 1730526970,
+          "method_name": "claim_yield",
+          "args_hash": "sha256:ad512cb6cab1f67e",
+          "deposit_yocto": "0"
+        }
+      ]
+    },
+    {
+      "account_id": "community-builder-21.near",
+      "funder_account_id": "community-sponsor-11.near",
+      "account_created_at_sec": 1715466400,
+      "first_call_at_sec": 1730527099,
+      "total_contracts_called": 31,
+      "calls": [
+        {
+          "tx_hash": "83037c08d5b7e3a348f0c88c75f15e8d13e3e1bd1174",
+          "block_height": 131016113,
+          "timestamp_sec": 1730527099,
+          "method_name": "create_vault",
+          "args_hash": "sha256:462e9b5d31ca539b",
+          "deposit_yocto": "3150000000000000000000000"
+        },
+        {
+          "tx_hash": "cc4f7aec401316bb95f8d5772d8657f6b331ce32a5b5",
+          "block_height": 131016148,
+          "timestamp_sec": 1730527140,
+          "method_name": "vote_gauge",
+          "args_hash": "sha256:deb2cbe4c10abf65",
+          "deposit_yocto": "1"
+        },
+        {
+          "tx_hash": "bea3a440106dfafc3a10874401de57d4b3bb366e29c4",
+          "block_height": 131016633,
+          "timestamp_sec": 1730527689,
+          "method_name": "claim_yield",
+          "args_hash": "sha256:c1d9b990b8fa59b7",
+          "deposit_yocto": "0"
+        }
+      ]
+    },
+    {
+      "account_id": "qa-wallet-01.near",
+      "funder_account_id": "qa-team-funder.near",
+      "account_created_at_sec": 1725316000,
+      "first_call_at_sec": 1730530211,
+      "total_contracts_called": 4,
+      "calls": [
+        {
+          "tx_hash": "48d959bc2b40a99342bd613b2b771f2c4c6ab83c1845",
+          "block_height": 131032029,
+          "timestamp_sec": 1730530211,
+          "method_name": "ping_contract",
+          "args_hash": "sha256:392ae079fd71d993",
+          "deposit_yocto": "1000000000000000000000"
+        }
+      ]
+    },
+    {
+      "account_id": "qa-wallet-02.near",
+      "funder_account_id": "qa-team-funder.near",
+      "account_created_at_sec": 1725316000,
+      "first_call_at_sec": 1730530422,
+      "total_contracts_called": 4,
+      "calls": [
+        {
+          "tx_hash": "2c1eb6d56c032d93c1cd14fc8ca752cafdf2c61f62fb",
+          "block_height": 131032058,
+          "timestamp_sec": 1730530422,
+          "method_name": "ping_contract",
+          "args_hash": "sha256:1f9dd869f7564ecb",
+          "deposit_yocto": "1000000000000000000000"
+        }
+      ]
+    },
+    {
+      "account_id": "qa-wallet-03.near",
+      "funder_account_id": "qa-team-funder.near",
+      "account_created_at_sec": 1725316000,
+      "first_call_at_sec": 1730530633,
+      "total_contracts_called": 4,
+      "calls": [
+        {
+          "tx_hash": "bfcb4557087100b081835f7d3edf54e0dda730df6057",
+          "block_height": 131032087,
+          "timestamp_sec": 1730530633,
+          "method_name": "ping_contract",
+          "args_hash": "sha256:4fc4d58dc1e60eb5",
+          "deposit_yocto": "1000000000000000000000"
+        }
+      ]
+    },
+    {
+      "account_id": "qa-wallet-04.near",
+      "funder_account_id": "qa-team-funder.near",
+      "account_created_at_sec": 1725316000,
+      "first_call_at_sec": 1730530844,
+      "total_contracts_called": 4,
+      "calls": [
+        {
+          "tx_hash": "6e6a42dcf81424b1f2b69b486c33f9cc391d18c5e224",
+          "block_height": 131032116,
+          "timestamp_sec": 1730530844,
+          "method_name": "ping_contract",
+          "args_hash": "sha256:ce22a8444509a019",
+          "deposit_yocto": "1000000000000000000000"
+        }
+      ]
+    },
+    {
+      "account_id": "promo-hunter-01.near",
+      "funder_account_id": "promo-funder-01.near",
+      "account_created_at_sec": 1730534729,
+      "first_call_at_sec": 1730535179,
+      "total_contracts_called": 1,
+      "calls": [
+        {
+          "tx_hash": "7c7ed27e0280714f5a00c9b228c0dcdb26dc4f943248",
+          "block_height": 131038023,
+          "timestamp_sec": 1730535179,
+          "method_name": "claim_badge",
+          "args_hash": "sha256:2e18e9fbbeda9487",
+          "deposit_yocto": "1"
+        }
+      ]
+    },
+    {
+      "account_id": "promo-hunter-02.near",
+      "funder_account_id": "promo-funder-02.near",
+      "account_created_at_sec": 1730534908,
+      "first_call_at_sec": 1730535358,
+      "total_contracts_called": 1,
+      "calls": [
+        {
+          "tx_hash": "286b2db7d049a2c22d9027cf1042692d0ef652da799d",
+          "block_height": 131038046,
+          "timestamp_sec": 1730535358,
+          "method_name": "claim_badge",
+          "args_hash": "sha256:9640cc15f3509f54",
+          "deposit_yocto": "1"
+        }
+      ]
+    },
+    {
+      "account_id": "promo-hunter-03.near",
+      "funder_account_id": "promo-funder-03.near",
+      "account_created_at_sec": 1730535087,
+      "first_call_at_sec": 1730535537,
+      "total_contracts_called": 1,
+      "calls": [
+        {
+          "tx_hash": "f50a843c773382e9cfde6e97e0a873a06aa072f829ca",
+          "block_height": 131038069,
+          "timestamp_sec": 1730535537,
+          "method_name": "claim_badge",
+          "args_hash": "sha256:c1893b67d84a5209",
+          "deposit_yocto": "1"
+        }
+      ]
+    },
+    {
+      "account_id": "keeper-cron-01.near",
+      "funder_account_id": "keeper-ops-01.near",
+      "account_created_at_sec": 1714948000,
+      "first_call_at_sec": 1730540313,
+      "total_contracts_called": 12,
+      "calls": [
+        {
+          "tx_hash": "b51e88bbd4503fe3779924500d546b9452760d192754",
+          "block_height": 131042100,
+          "timestamp_sec": 1730540313,
+          "method_name": "sync_oracle",
+          "args_hash": "sha256:786846ff22dc33f6",
+          "deposit_yocto": "0"
+        },
+        {
+          "tx_hash": "94716f3ff56f228e92b7c46d725697e18e39bc954ab3",
+          "block_height": 131042160,
+          "timestamp_sec": 1730540373,
+          "method_name": "sync_oracle",
+          "args_hash": "sha256:d6fb2ab27b8b6412",
+          "deposit_yocto": "0"
+        },
+        {
+          "tx_hash": "f76f49e71e399b03b849032e39fc0470f4575c09369d",
+          "block_height": 131042220,
+          "timestamp_sec": 1730540433,
+          "method_name": "sync_oracle",
+          "args_hash": "sha256:1f1059a36659c0b6",
+          "deposit_yocto": "0"
+        },
+        {
+          "tx_hash": "3a16b909bd7a039fb0299dbc2c924f7ecffa85b41044",
+          "block_height": 131042280,
+          "timestamp_sec": 1730540493,
+          "method_name": "sync_oracle",
+          "args_hash": "sha256:ed1cbf967fdc7d19",
+          "deposit_yocto": "0"
+        }
+      ]
+    },
+    {
+      "account_id": "keeper-cron-02.near",
+      "funder_account_id": "keeper-ops-02.near",
+      "account_created_at_sec": 1714948000,
+      "first_call_at_sec": 1730540626,
+      "total_contracts_called": 12,
+      "calls": [
+        {
+          "tx_hash": "5ca9a9726f2fd03e1d09d8526564689ef530f40bfe3c",
+          "block_height": 131042200,
+          "timestamp_sec": 1730540626,
+          "method_name": "sync_oracle",
+          "args_hash": "sha256:5981d87bd676718b",
+          "deposit_yocto": "0"
+        },
+        {
+          "tx_hash": "18617a1eb239dc9bd5a37feeb068c7fd49e9ecec0da4",
+          "block_height": 131042260,
+          "timestamp_sec": 1730540686,
+          "method_name": "sync_oracle",
+          "args_hash": "sha256:51dceb8ff161f99b",
+          "deposit_yocto": "0"
+        },
+        {
+          "tx_hash": "5eef104e5d0b6557ae1f8bab92e3ba596f4546d1cf76",
+          "block_height": 131042320,
+          "timestamp_sec": 1730540746,
+          "method_name": "sync_oracle",
+          "args_hash": "sha256:615a27408ea4ed25",
+          "deposit_yocto": "0"
+        },
+        {
+          "tx_hash": "f23f6545a1a68ee8f8ea1145ed3ccff73408ca97a8bb",
+          "block_height": 131042380,
+          "timestamp_sec": 1730540806,
+          "method_name": "sync_oracle",
+          "args_hash": "sha256:4ddce3dde59ea65b",
+          "deposit_yocto": "0"
+        }
+      ]
+    }
+  ]
+}

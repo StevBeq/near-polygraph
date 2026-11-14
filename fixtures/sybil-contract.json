@@ -1,0 +1,1032 @@
+{
+  "claim_id": 0,
+  "target_contract": "sybil-dex.near",
+  "start_block": 130000000,
+  "end_block": 130050000,
+  "min_score_bps": 7000,
+  "known_exchange_funders": [
+    "binancecold3.near",
+    "okx.near",
+    "testnet"
+  ],
+  "callers": [
+    {
+      "account_id": "alpha-bot-01.near",
+      "funder_account_id": "bot-master-alpha.near",
+      "account_created_at_sec": 1726112137,
+      "first_call_at_sec": 1730000137,
+      "total_contracts_called": 6,
+      "calls": [
+        {
+          "tx_hash": "cdb3dee3f07e41436b7139761e134e3272395ca6cbf8",
+          "block_height": 130001019,
+          "timestamp_sec": 1730000137,
+          "method_name": "swap",
+          "args_hash": "sha256:81dfdfe9222bb881",
+          "deposit_yocto": "1001000000000000000000"
+        },
+        {
+          "tx_hash": "a43f4694266f536bf063984b815d9b17edae6e36fb7c",
+          "block_height": 130001500,
+          "timestamp_sec": 1730000877,
+          "method_name": "add_liquidity",
+          "args_hash": "sha256:9626c3e9f08027a7",
+          "deposit_yocto": "5000000000000000000000"
+        }
+      ]
+    },
+    {
+      "account_id": "alpha-bot-02.near",
+      "funder_account_id": "bot-master-alpha.near",
+      "account_created_at_sec": 1729999754,
+      "first_call_at_sec": 1730000174,
+      "total_contracts_called": 1,
+      "calls": [
+        {
+          "tx_hash": "a966efda4e25072e95bea942bccd625181f73f6ab2c7",
+          "block_height": 130001038,
+          "timestamp_sec": 1730000174,
+          "method_name": "swap",
+          "args_hash": "sha256:9fa4636607e28b7e",
+          "deposit_yocto": "1002000000000000000000"
+        }
+      ]
+    },
+    {
+      "account_id": "alpha-bot-03.near",
+      "funder_account_id": "bot-master-alpha.near",
+      "account_created_at_sec": 1729999791,
+      "first_call_at_sec": 1730000211,
+      "total_contracts_called": 1,
+      "calls": [
+        {
+          "tx_hash": "b2ac4aea8f502dd539025b5679d51a92832b2d4d8126",
+          "block_height": 130001057,
+          "timestamp_sec": 1730000211,
+          "method_name": "swap",
+          "args_hash": "sha256:ecd76e8142a54746",
+          "deposit_yocto": "1003000000000000000000"
+        }
+      ]
+    },
+    {
+      "account_id": "alpha-bot-04.near",
+      "funder_account_id": "bot-master-alpha.near",
+      "account_created_at_sec": 1729999828,
+      "first_call_at_sec": 1730000248,
+      "total_contracts_called": 1,
+      "calls": [
+        {
+          "tx_hash": "fcf509391b4e975c4f05da6d84638a76bf32c76e730d",
+          "block_height": 130001076,
+          "timestamp_sec": 1730000248,
+          "method_name": "swap",
+          "args_hash": "sha256:639a4dc53a823278",
+          "deposit_yocto": "1004000000000000000000"
+        }
+      ]
+    },
+    {
+      "account_id": "alpha-bot-05.near",
+      "funder_account_id": "bot-master-alpha.near",
+      "account_created_at_sec": 1729999865,
+      "first_call_at_sec": 1730000285,
+      "total_contracts_called": 1,
+      "calls": [
+        {
+          "tx_hash": "bb0d320a62b9bcbce4bb0bdbd32447a856a47aabbb7d",
+          "block_height": 130001095,
+          "timestamp_sec": 1730000285,
+          "method_name": "swap",
+          "args_hash": "sha256:2cc712ef600fa93f",
+          "deposit_yocto": "1005000000000000000000"
+        }
+      ]
+    },
+    {
+      "account_id": "alpha-bot-06.near",
+      "funder_account_id": "bot-master-alpha.near",
+      "account_created_at_sec": 1729999902,
+      "first_call_at_sec": 1730000322,
+      "total_contracts_called": 1,
+      "calls": [
+        {
+          "tx_hash": "80f6bc01910503cec70c64b37503f9d6030c42bbd179",
+          "block_height": 130001114,
+          "timestamp_sec": 1730000322,
+          "method_name": "swap",
+          "args_hash": "sha256:0655bbcda159bf78",
+          "deposit_yocto": "1006000000000000000000"
+        }
+      ]
+    },
+    {
+      "account_id": "alpha-bot-07.near",
+      "funder_account_id": "bot-master-alpha.near",
+      "account_created_at_sec": 1729999939,
+      "first_call_at_sec": 1730000359,
+      "total_contracts_called": 1,
+      "calls": [
+        {
+          "tx_hash": "77d3b835eed6e7e7a872bdb02fdf36181d8c88f3cce2",
+          "block_height": 130001133,
+          "timestamp_sec": 1730000359,
+          "method_name": "swap",
+          "args_hash": "sha256:fa592977b61c017a",
+          "deposit_yocto": "1007000000000000000000"
+        }
+      ]
+    },
+    {
+      "account_id": "alpha-bot-08.near",
+      "funder_account_id": "bot-master-alpha.near",
+      "account_created_at_sec": 1729999976,
+      "first_call_at_sec": 1730000396,
+      "total_contracts_called": 1,
+      "calls": [
+        {
+          "tx_hash": "1f22638c651c007959410c43d8cbbe8a6bc3d8c876be",
+          "block_height": 130001152,
+          "timestamp_sec": 1730000396,
+          "method_name": "swap",
+          "args_hash": "sha256:8db64ef4459391c5",
+          "deposit_yocto": "1008000000000000000000"
+        }
+      ]
+    },
+    {
+      "account_id": "alpha-bot-09.near",
+      "funder_account_id": "bot-master-alpha.near",
+      "account_created_at_sec": 1730000013,
+      "first_call_at_sec": 1730000433,
+      "total_contracts_called": 1,
+      "calls": [
+        {
+          "tx_hash": "b5dd14c9583ee02e84ae9f863f3c2b4c69b62cf0fc53",
+          "block_height": 130001171,
+          "timestamp_sec": 1730000433,
+          "method_name": "swap",
+          "args_hash": "sha256:9e1c49ca01641aad",
+          "deposit_yocto": "1009000000000000000000"
+        }
+      ]
+    },
+    {
+      "account_id": "alpha-bot-10.near",
+      "funder_account_id": "bot-master-alpha.near",
+      "account_created_at_sec": 1730000050,
+      "first_call_at_sec": 1730000470,
+      "total_contracts_called": 1,
+      "calls": [
+        {
+          "tx_hash": "987f8275b03270aff410b602ec4c143601455b67564e",
+          "block_height": 130001190,
+          "timestamp_sec": 1730000470,
+          "method_name": "swap",
+          "args_hash": "sha256:845726950d99bddb",
+          "deposit_yocto": "1010000000000000000000"
+        }
+      ]
+    },
+    {
+      "account_id": "alpha-bot-11.near",
+      "funder_account_id": "bot-master-alpha.near",
+      "account_created_at_sec": 1730000087,
+      "first_call_at_sec": 1730000507,
+      "total_contracts_called": 1,
+      "calls": [
+        {
+          "tx_hash": "a87b9d6d2be0c8e72fd22e0d5364a4bc2849caf03fd2",
+          "block_height": 130001209,
+          "timestamp_sec": 1730000507,
+          "method_name": "swap",
+          "args_hash": "sha256:96200bdbf3d5c63d",
+          "deposit_yocto": "1011000000000000000000"
+        }
+      ]
+    },
+    {
+      "account_id": "alpha-bot-12.near",
+      "funder_account_id": "bot-master-alpha.near",
+      "account_created_at_sec": 1729395744,
+      "first_call_at_sec": 1730000544,
+      "total_contracts_called": 2,
+      "calls": [
+        {
+          "tx_hash": "493ebd8017ba80a9838a0d0537e12642af9785798dd0",
+          "block_height": 130001228,
+          "timestamp_sec": 1730000544,
+          "method_name": "swap",
+          "args_hash": "sha256:a5c9df72da81bb69",
+          "deposit_yocto": "1012000000000000000000"
+        }
+      ]
+    },
+    {
+      "account_id": "alpha-bot-13.near",
+      "funder_account_id": "bot-master-alpha.near",
+      "account_created_at_sec": 1729395781,
+      "first_call_at_sec": 1730000581,
+      "total_contracts_called": 2,
+      "calls": [
+        {
+          "tx_hash": "8f1c0d24a85942213d466b170529c97f13145e3d2c8f",
+          "block_height": 130001247,
+          "timestamp_sec": 1730000581,
+          "method_name": "swap",
+          "args_hash": "sha256:1db8fbf62e0bb9ec",
+          "deposit_yocto": "1013000000000000000000"
+        }
+      ]
+    },
+    {
+      "account_id": "alpha-bot-14.near",
+      "funder_account_id": "bot-master-alpha.near",
+      "account_created_at_sec": 1729395818,
+      "first_call_at_sec": 1730000618,
+      "total_contracts_called": 2,
+      "calls": [
+        {
+          "tx_hash": "3c22ffc8f943009a45d59e4dd162c487d134b429a736",
+          "block_height": 130001266,
+          "timestamp_sec": 1730000618,
+          "method_name": "swap",
+          "args_hash": "sha256:609847eb1dc963c3",
+          "deposit_yocto": "1014000000000000000000"
+        }
+      ]
+    },
+    {
+      "account_id": "alpha-bot-15.near",
+      "funder_account_id": "bot-master-alpha.near",
+      "account_created_at_sec": 1729395855,
+      "first_call_at_sec": 1730000655,
+      "total_contracts_called": 2,
+      "calls": [
+        {
+          "tx_hash": "917bf9886f482ad5e72ba10423989c8d87b9132a8b6d",
+          "block_height": 130001285,
+          "timestamp_sec": 1730000655,
+          "method_name": "swap",
+          "args_hash": "sha256:a48edf9b69a0ce59",
+          "deposit_yocto": "1015000000000000000000"
+        }
+      ]
+    },
+    {
+      "account_id": "alpha-bot-16.near",
+      "funder_account_id": "bot-master-alpha.near",
+      "account_created_at_sec": 1729395892,
+      "first_call_at_sec": 1730000692,
+      "total_contracts_called": 2,
+      "calls": [
+        {
+          "tx_hash": "cd7aff0b1ef25a2ece45162dc02c8202ae8c53092b4d",
+          "block_height": 130001304,
+          "timestamp_sec": 1730000692,
+          "method_name": "swap",
+          "args_hash": "sha256:0aeca7d5bd30aa11",
+          "deposit_yocto": "1016000000000000000000"
+        }
+      ]
+    },
+    {
+      "account_id": "alpha-bot-17.near",
+      "funder_account_id": "bot-master-alpha.near",
+      "account_created_at_sec": 1729395929,
+      "first_call_at_sec": 1730000729,
+      "total_contracts_called": 2,
+      "calls": [
+        {
+          "tx_hash": "32544b5cee529a640f82e624618def9fa1361cb65faa",
+          "block_height": 130001323,
+          "timestamp_sec": 1730000729,
+          "method_name": "swap",
+          "args_hash": "sha256:fd38c67206ae2444",
+          "deposit_yocto": "1017000000000000000000"
+        }
+      ]
+    },
+    {
+      "account_id": "alpha-bot-18.near",
+      "funder_account_id": "bot-master-alpha.near",
+      "account_created_at_sec": 1729395966,
+      "first_call_at_sec": 1730000766,
+      "total_contracts_called": 2,
+      "calls": [
+        {
+          "tx_hash": "cc7b9f586927bed1c75ccd7218710120a641fe5e9815",
+          "block_height": 130001342,
+          "timestamp_sec": 1730000766,
+          "method_name": "swap",
+          "args_hash": "sha256:d220d76db194066a",
+          "deposit_yocto": "1018000000000000000000"
+        }
+      ]
+    },
+    {
+      "account_id": "alpha-bot-19.near",
+      "funder_account_id": "bot-master-alpha.near",
+      "account_created_at_sec": 1729396003,
+      "first_call_at_sec": 1730000803,
+      "total_contracts_called": 2,
+      "calls": [
+        {
+          "tx_hash": "de795d016a9963dac052d64b81f81d1830614efa8f47",
+          "block_height": 130001361,
+          "timestamp_sec": 1730000803,
+          "method_name": "swap",
+          "args_hash": "sha256:3f840538ec871881",
+          "deposit_yocto": "1019000000000000000000"
+        }
+      ]
+    },
+    {
+      "account_id": "alpha-bot-20.near",
+      "funder_account_id": "bot-master-alpha.near",
+      "account_created_at_sec": 1729396040,
+      "first_call_at_sec": 1730000840,
+      "total_contracts_called": 2,
+      "calls": [
+        {
+          "tx_hash": "93c49818e109a23aad0cc4605d3b7f6fad37a438b473",
+          "block_height": 130001380,
+          "timestamp_sec": 1730000840,
+          "method_name": "swap",
+          "args_hash": "sha256:19c2a4b21c139b9b",
+          "deposit_yocto": "1020000000000000000000"
+        }
+      ]
+    },
+    {
+      "account_id": "alpha-bot-21.near",
+      "funder_account_id": "bot-master-alpha.near",
+      "account_created_at_sec": 1729396077,
+      "first_call_at_sec": 1730000877,
+      "total_contracts_called": 2,
+      "calls": [
+        {
+          "tx_hash": "c00921556f77b2b8d263171648e9d6628388dbd24386",
+          "block_height": 130001399,
+          "timestamp_sec": 1730000877,
+          "method_name": "swap",
+          "args_hash": "sha256:52af64242c851f88",
+          "deposit_yocto": "1021000000000000000000"
+        }
+      ]
+    },
+    {
+      "account_id": "alpha-bot-22.near",
+      "funder_account_id": "bot-master-alpha.near",
+      "account_created_at_sec": 1729396114,
+      "first_call_at_sec": 1730000914,
+      "total_contracts_called": 2,
+      "calls": [
+        {
+          "tx_hash": "c345de5b2ea6dc9d5fc9ed97656616d537c7e4a19468",
+          "block_height": 130001418,
+          "timestamp_sec": 1730000914,
+          "method_name": "swap",
+          "args_hash": "sha256:bbb21fe7ea9e467a",
+          "deposit_yocto": "1022000000000000000000"
+        }
+      ]
+    },
+    {
+      "account_id": "sybil-99-01.near",
+      "funder_account_id": "sybil-faucet-99.near",
+      "account_created_at_sec": 1727583363,
+      "first_call_at_sec": 1730002563,
+      "total_contracts_called": 5,
+      "calls": [
+        {
+          "tx_hash": "bd11a65ac5720166dac52f695e5fa7a37237bb6772cc",
+          "block_height": 130010017,
+          "timestamp_sec": 1730002563,
+          "method_name": "swap",
+          "args_hash": "sha256:b9abdaaaf74a52ed",
+          "deposit_yocto": "2001000000000000000000"
+        }
+      ]
+    },
+    {
+      "account_id": "sybil-99-02.near",
+      "funder_account_id": "sybil-faucet-99.near",
+      "account_created_at_sec": 1729578022,
+      "first_call_at_sec": 1730010022,
+      "total_contracts_called": 2,
+      "calls": [
+        {
+          "tx_hash": "9e16b9c62ef9cbc289c1b2cf6ac8c64a20d60710eb11",
+          "block_height": 130010034,
+          "timestamp_sec": 1730010022,
+          "method_name": "swap",
+          "args_hash": "sha256:378e104c8b4bd355",
+          "deposit_yocto": "10000000000000000000000"
+        }
+      ]
+    },
+    {
+      "account_id": "sybil-99-03.near",
+      "funder_account_id": "sybil-faucet-99.near",
+      "account_created_at_sec": 1729578033,
+      "first_call_at_sec": 1730010033,
+      "total_contracts_called": 2,
+      "calls": [
+        {
+          "tx_hash": "c2db6f23691263f099373a0a4043b760a4c1ab4ba71f",
+          "block_height": 130010051,
+          "timestamp_sec": 1730010033,
+          "method_name": "swap",
+          "args_hash": "sha256:378e104c8b4bd355",
+          "deposit_yocto": "10000000000000000000000"
+        }
+      ]
+    },
+    {
+      "account_id": "sybil-99-04.near",
+      "funder_account_id": "sybil-faucet-99.near",
+      "account_created_at_sec": 1729578044,
+      "first_call_at_sec": 1730010044,
+      "total_contracts_called": 2,
+      "calls": [
+        {
+          "tx_hash": "8b90efa123421a1430b075557c3b55525347219a8223",
+          "block_height": 130010068,
+          "timestamp_sec": 1730010044,
+          "method_name": "swap",
+          "args_hash": "sha256:378e104c8b4bd355",
+          "deposit_yocto": "10000000000000000000000"
+        }
+      ]
+    },
+    {
+      "account_id": "sybil-99-05.near",
+      "funder_account_id": "sybil-faucet-99.near",
+      "account_created_at_sec": 1729578055,
+      "first_call_at_sec": 1730010055,
+      "total_contracts_called": 2,
+      "calls": [
+        {
+          "tx_hash": "c31efc75698dd09a494b7a50c741f1f37780f55b2f6f",
+          "block_height": 130010085,
+          "timestamp_sec": 1730010055,
+          "method_name": "swap",
+          "args_hash": "sha256:378e104c8b4bd355",
+          "deposit_yocto": "10000000000000000000000"
+        }
+      ]
+    },
+    {
+      "account_id": "sybil-99-06.near",
+      "funder_account_id": "sybil-faucet-99.near",
+      "account_created_at_sec": 1729578066,
+      "first_call_at_sec": 1730010066,
+      "total_contracts_called": 2,
+      "calls": [
+        {
+          "tx_hash": "c29ec3dcc7846aa51f8461a295f869fa2ae8bdc1369b",
+          "block_height": 130010102,
+          "timestamp_sec": 1730010066,
+          "method_name": "swap",
+          "args_hash": "sha256:378e104c8b4bd355",
+          "deposit_yocto": "10000000000000000000000"
+        }
+      ]
+    },
+    {
+      "account_id": "sybil-99-07.near",
+      "funder_account_id": "sybil-faucet-99.near",
+      "account_created_at_sec": 1729578077,
+      "first_call_at_sec": 1730010077,
+      "total_contracts_called": 2,
+      "calls": [
+        {
+          "tx_hash": "ce902a18e0742454223e07da3a9cab6d443594639823",
+          "block_height": 130010119,
+          "timestamp_sec": 1730010077,
+          "method_name": "swap",
+          "args_hash": "sha256:378e104c8b4bd355",
+          "deposit_yocto": "10000000000000000000000"
+        }
+      ]
+    },
+    {
+      "account_id": "sybil-99-08.near",
+      "funder_account_id": "sybil-faucet-99.near",
+      "account_created_at_sec": 1729578088,
+      "first_call_at_sec": 1730010088,
+      "total_contracts_called": 2,
+      "calls": [
+        {
+          "tx_hash": "3d09477110beb23134466463fb1e8133e95c26877ce2",
+          "block_height": 130010136,
+          "timestamp_sec": 1730010088,
+          "method_name": "swap",
+          "args_hash": "sha256:378e104c8b4bd355",
+          "deposit_yocto": "10000000000000000000000"
+        }
+      ]
+    },
+    {
+      "account_id": "sybil-99-09.near",
+      "funder_account_id": "sybil-faucet-99.near",
+      "account_created_at_sec": 1729578099,
+      "first_call_at_sec": 1730010099,
+      "total_contracts_called": 2,
+      "calls": [
+        {
+          "tx_hash": "27305b8b19160f0a5085e00dddf2904db7bd352e7dc9",
+          "block_height": 130010153,
+          "timestamp_sec": 1730010099,
+          "method_name": "swap",
+          "args_hash": "sha256:378e104c8b4bd355",
+          "deposit_yocto": "10000000000000000000000"
+        }
+      ]
+    },
+    {
+      "account_id": "sybil-99-10.near",
+      "funder_account_id": "sybil-faucet-99.near",
+      "account_created_at_sec": 1729571130,
+      "first_call_at_sec": 1730003130,
+      "total_contracts_called": 2,
+      "calls": [
+        {
+          "tx_hash": "852b8a70faa9aff103444ed1e43d2494482f4fa6f39e",
+          "block_height": 130010170,
+          "timestamp_sec": 1730003130,
+          "method_name": "swap",
+          "args_hash": "sha256:83c5ddaa42efb6dd",
+          "deposit_yocto": "2010000000000000000000"
+        }
+      ]
+    },
+    {
+      "account_id": "sybil-99-11.near",
+      "funder_account_id": "sybil-faucet-99.near",
+      "account_created_at_sec": 1729571193,
+      "first_call_at_sec": 1730003193,
+      "total_contracts_called": 2,
+      "calls": [
+        {
+          "tx_hash": "aecb425be71c50bb795bfe4d7a826fa69136391a294e",
+          "block_height": 130010187,
+          "timestamp_sec": 1730003193,
+          "method_name": "swap",
+          "args_hash": "sha256:66caa1c27b2befae",
+          "deposit_yocto": "2011000000000000000000"
+        }
+      ]
+    },
+    {
+      "account_id": "sybil-99-12.near",
+      "funder_account_id": "sybil-faucet-99.near",
+      "account_created_at_sec": 1729571256,
+      "first_call_at_sec": 1730003256,
+      "total_contracts_called": 2,
+      "calls": [
+        {
+          "tx_hash": "9bb52219c24f987a7fc2360161ef5662fa4c1078f955",
+          "block_height": 130010204,
+          "timestamp_sec": 1730003256,
+          "method_name": "swap",
+          "args_hash": "sha256:39884c91c2598e4a",
+          "deposit_yocto": "2012000000000000000000"
+        }
+      ]
+    },
+    {
+      "account_id": "sybil-99-13.near",
+      "funder_account_id": "sybil-faucet-99.near",
+      "account_created_at_sec": 1729571319,
+      "first_call_at_sec": 1730003319,
+      "total_contracts_called": 2,
+      "calls": [
+        {
+          "tx_hash": "f0a305ecd911501d9fa337062b5fa865d691fcf22fb5",
+          "block_height": 130010221,
+          "timestamp_sec": 1730003319,
+          "method_name": "swap",
+          "args_hash": "sha256:e12100f0eb2d2dd8",
+          "deposit_yocto": "2013000000000000000000"
+        }
+      ]
+    },
+    {
+      "account_id": "sybil-99-14.near",
+      "funder_account_id": "sybil-faucet-99.near",
+      "account_created_at_sec": 1729571382,
+      "first_call_at_sec": 1730003382,
+      "total_contracts_called": 2,
+      "calls": [
+        {
+          "tx_hash": "d54fe53c4bbfc1b46cede480d187a8848ed5bd206b66",
+          "block_height": 130010238,
+          "timestamp_sec": 1730003382,
+          "method_name": "swap",
+          "args_hash": "sha256:cfffb2b85afa0adb",
+          "deposit_yocto": "2014000000000000000000"
+        }
+      ]
+    },
+    {
+      "account_id": "sybil-99-15.near",
+      "funder_account_id": "sybil-faucet-99.near",
+      "account_created_at_sec": 1729571445,
+      "first_call_at_sec": 1730003445,
+      "total_contracts_called": 2,
+      "calls": [
+        {
+          "tx_hash": "5242911efd66c8b699d1ce195358a189ca48b05def64",
+          "block_height": 130010255,
+          "timestamp_sec": 1730003445,
+          "method_name": "swap",
+          "args_hash": "sha256:c8d86e9dfa8137d2",
+          "deposit_yocto": "2015000000000000000000"
+        }
+      ]
+    },
+    {
+      "account_id": "burner-x1.near",
+      "funder_account_id": "binancecold3.near",
+      "account_created_at_sec": 1730017591,
+      "first_call_at_sec": 1730018131,
+      "total_contracts_called": 1,
+      "calls": [
+        {
+          "tx_hash": "4328eeb7e7b54e31b464679821ffed9d17d83db208f0",
+          "block_height": 130020031,
+          "timestamp_sec": 1730018131,
+          "method_name": "claim_airdrop",
+          "args_hash": "sha256:9b167bf75f1e8a69",
+          "deposit_yocto": "3000000000000000000001"
+        }
+      ]
+    },
+    {
+      "account_id": "burner-x2.near",
+      "funder_account_id": "okx.near",
+      "account_created_at_sec": 1730017722,
+      "first_call_at_sec": 1730018262,
+      "total_contracts_called": 1,
+      "calls": [
+        {
+          "tx_hash": "00119cca30739f341d1d552c7888a83efbe9b99d1a3a",
+          "block_height": 130020062,
+          "timestamp_sec": 1730018262,
+          "method_name": "claim_airdrop",
+          "args_hash": "sha256:b97ee56992726e7a",
+          "deposit_yocto": "3000000000000000000002"
+        }
+      ]
+    },
+    {
+      "account_id": "burner-x3.near",
+      "funder_account_id": "indie-burner-parent.near",
+      "account_created_at_sec": 1730017853,
+      "first_call_at_sec": 1730018393,
+      "total_contracts_called": 1,
+      "calls": [
+        {
+          "tx_hash": "91c2734e1510bd2bc6d4c7dcdc9a8951f72576bdbe32",
+          "block_height": 130020093,
+          "timestamp_sec": 1730018393,
+          "method_name": "claim_airdrop",
+          "args_hash": "sha256:70a8b75aaa40c66c",
+          "deposit_yocto": "3000000000000000000003"
+        }
+      ]
+    },
+    {
+      "account_id": "script-bot-01.near",
+      "funder_account_id": "binancecold3.near",
+      "account_created_at_sec": 1722224000,
+      "first_call_at_sec": 1730010120,
+      "total_contracts_called": 7,
+      "calls": [
+        {
+          "tx_hash": "5bb06f84d6c045ce28e22b6c857003eff98cea6720ac",
+          "block_height": 130010205,
+          "timestamp_sec": 1730010120,
+          "method_name": "swap",
+          "args_hash": "sha256:378e104c8b4bd355",
+          "deposit_yocto": "10000000000000000000000"
+        },
+        {
+          "tx_hash": "a4d03bb875ed0d92c154bc9dec112b38f164733c83e4",
+          "block_height": 130010220,
+          "timestamp_sec": 1730010135,
+          "method_name": "swap",
+          "args_hash": "sha256:3358ff1c19cb995f",
+          "deposit_yocto": "10000000000000000000000"
+        },
+        {
+          "tx_hash": "bf3d9533fc7ad9a910c2c4171fdf4ec3ae95452d34c6",
+          "block_height": 130010235,
+          "timestamp_sec": 1730010150,
+          "method_name": "swap",
+          "args_hash": "sha256:4517753f028a5a9c",
+          "deposit_yocto": "10000000000000000000000"
+        }
+      ]
+    },
+    {
+      "account_id": "script-bot-02.near",
+      "funder_account_id": "okx.near",
+      "account_created_at_sec": 1722224000,
+      "first_call_at_sec": 1730010130,
+      "total_contracts_called": 7,
+      "calls": [
+        {
+          "tx_hash": "4f820e0ffe4048ccb2bd468d7a2da23c052270f19108",
+          "block_height": 130010210,
+          "timestamp_sec": 1730010130,
+          "method_name": "swap",
+          "args_hash": "sha256:378e104c8b4bd355",
+          "deposit_yocto": "10000000000000000000000"
+        },
+        {
+          "tx_hash": "d6adb3e3775f0054a316bdc309c76af8452a6c48ffb4",
+          "block_height": 130010225,
+          "timestamp_sec": 1730010145,
+          "method_name": "swap",
+          "args_hash": "sha256:d5ecf35d70b2620c",
+          "deposit_yocto": "10000000000000000000000"
+        },
+        {
+          "tx_hash": "1ea90ccaef361a2bc66ed763b657728fa7e8b5887704",
+          "block_height": 130010240,
+          "timestamp_sec": 1730010160,
+          "method_name": "swap",
+          "args_hash": "sha256:e0d2c6dd51b2b3f5",
+          "deposit_yocto": "10000000000000000000000"
+        }
+      ]
+    },
+    {
+      "account_id": "script-bot-03.near",
+      "funder_account_id": "cron-deployer.near",
+      "account_created_at_sec": 1722224000,
+      "first_call_at_sec": 1730010140,
+      "total_contracts_called": 7,
+      "calls": [
+        {
+          "tx_hash": "bb38165ea8aacc3e7cf6fcb738e4b363f8e506333d51",
+          "block_height": 130010215,
+          "timestamp_sec": 1730010140,
+          "method_name": "swap",
+          "args_hash": "sha256:378e104c8b4bd355",
+          "deposit_yocto": "10000000000000000000000"
+        },
+        {
+          "tx_hash": "5e666b952df43432449556dda2c5c58fa0644f392145",
+          "block_height": 130010230,
+          "timestamp_sec": 1730010155,
+          "method_name": "swap",
+          "args_hash": "sha256:5925144ea4503fad",
+          "deposit_yocto": "10000000000000000000000"
+        },
+        {
+          "tx_hash": "e944a4a9e8b7dbfa51b5113aea0f094744be75103db4",
+          "block_height": 130010245,
+          "timestamp_sec": 1730010170,
+          "method_name": "swap",
+          "args_hash": "sha256:bd4ad2f2f2714c5a",
+          "deposit_yocto": "10000000000000000000000"
+        }
+      ]
+    },
+    {
+      "account_id": "alice-near.near",
+      "funder_account_id": "binancecold3.near",
+      "account_created_at_sec": 1724816000,
+      "first_call_at_sec": 1730030000,
+      "total_contracts_called": 8,
+      "calls": [
+        {
+          "tx_hash": "6d46b85f905d30e022fad01386c235a1822932ecc57b",
+          "block_height": 130030000,
+          "timestamp_sec": 1730030000,
+          "method_name": "add_liquidity",
+          "args_hash": "sha256:3060b641d207ce7c",
+          "deposit_yocto": "250000000000000000000000"
+        },
+        {
+          "tx_hash": "1b7ee2fe222e10e42ce3b37bbb7fcd46e98c0ec7fa18",
+          "block_height": 130030050,
+          "timestamp_sec": 1730030075,
+          "method_name": "swap",
+          "args_hash": "sha256:2a4b7147950b6cae",
+          "deposit_yocto": "120000000000000000000000"
+        },
+        {
+          "tx_hash": "b9dcc171a09e69ed6ed0eeb88493938a3b119d22eff5",
+          "block_height": 130030420,
+          "timestamp_sec": 1730030685,
+          "method_name": "remove_liquidity",
+          "args_hash": "sha256:a91489442baaecb0",
+          "deposit_yocto": "1"
+        }
+      ]
+    },
+    {
+      "account_id": "bob-dev.near",
+      "funder_account_id": "okx.near",
+      "account_created_at_sec": 1723347200,
+      "first_call_at_sec": 1730030811,
+      "total_contracts_called": 11,
+      "calls": [
+        {
+          "tx_hash": "63e2828b07c6877d7f22a2ae954c7b10c771daa8688a",
+          "block_height": 130030097,
+          "timestamp_sec": 1730030811,
+          "method_name": "add_liquidity",
+          "args_hash": "sha256:651f0407377c3cfb",
+          "deposit_yocto": "500000000000000000000000"
+        },
+        {
+          "tx_hash": "8da8660a49280e797e94a0d54922a4a9f5a66dc4c1f0",
+          "block_height": 130030147,
+          "timestamp_sec": 1730030886,
+          "method_name": "swap",
+          "args_hash": "sha256:61debcfb88c1b365",
+          "deposit_yocto": "240000000000000000000000"
+        },
+        {
+          "tx_hash": "ecbe5f0496c7f121d148681484d4000becac9e52f79e",
+          "block_height": 130030517,
+          "timestamp_sec": 1730031496,
+          "method_name": "remove_liquidity",
+          "args_hash": "sha256:94a3b0bdf869506b",
+          "deposit_yocto": "1"
+        }
+      ]
+    },
+    {
+      "account_id": "carol-dao.near",
+      "funder_account_id": "friend-sponsor-1.near",
+      "account_created_at_sec": 1721878400,
+      "first_call_at_sec": 1730031622,
+      "total_contracts_called": 14,
+      "calls": [
+        {
+          "tx_hash": "5fb3f20e9f73302041defdefe36b48f130370e0ec2d8",
+          "block_height": 130030194,
+          "timestamp_sec": 1730031622,
+          "method_name": "add_liquidity",
+          "args_hash": "sha256:86dd6c27d5646ded",
+          "deposit_yocto": "750000000000000000000000"
+        },
+        {
+          "tx_hash": "3e94873e29499161bad69d745b30acbde172a46c00b2",
+          "block_height": 130030244,
+          "timestamp_sec": 1730031697,
+          "method_name": "swap",
+          "args_hash": "sha256:3fb788a3ec9c0add",
+          "deposit_yocto": "360000000000000000000000"
+        },
+        {
+          "tx_hash": "34eca03d292b7b7152ebb7af7617f5d7d992d3739cd5",
+          "block_height": 130030614,
+          "timestamp_sec": 1730032307,
+          "method_name": "remove_liquidity",
+          "args_hash": "sha256:ae120f013be1a6b0",
+          "deposit_yocto": "1"
+        }
+      ]
+    },
+    {
+      "account_id": "dave-trader.near",
+      "funder_account_id": "binancecold3.near",
+      "account_created_at_sec": 1720409600,
+      "first_call_at_sec": 1730032433,
+      "total_contracts_called": 17,
+      "calls": [
+        {
+          "tx_hash": "9cad9e41349d346eb1ed2baebc04ee8d227a739401c4",
+          "block_height": 130030291,
+          "timestamp_sec": 1730032433,
+          "method_name": "add_liquidity",
+          "args_hash": "sha256:0dfa609fc405a8cf",
+          "deposit_yocto": "1000000000000000000000000"
+        },
+        {
+          "tx_hash": "e7f6dbaddff4faf57816501bef86d5c47ebd2a896d58",
+          "block_height": 130030341,
+          "timestamp_sec": 1730032508,
+          "method_name": "swap",
+          "args_hash": "sha256:23b6cf35f68f7178",
+          "deposit_yocto": "480000000000000000000000"
+        },
+        {
+          "tx_hash": "2b8a41ca7d17c50faec4655cc802bfe7c2d77471f4d0",
+          "block_height": 130030711,
+          "timestamp_sec": 1730033118,
+          "method_name": "remove_liquidity",
+          "args_hash": "sha256:7075b9eace2446eb",
+          "deposit_yocto": "1"
+        }
+      ]
+    },
+    {
+      "account_id": "erin-nft.near",
+      "funder_account_id": "guild-mentor.near",
+      "account_created_at_sec": 1718940800,
+      "first_call_at_sec": 1730033244,
+      "total_contracts_called": 20,
+      "calls": [
+        {
+          "tx_hash": "ff1ea109206cecee8582c4a834dbe6366937d6c9c312",
+          "block_height": 130030388,
+          "timestamp_sec": 1730033244,
+          "method_name": "add_liquidity",
+          "args_hash": "sha256:2b87b633ea532f45",
+          "deposit_yocto": "1250000000000000000000000"
+        },
+        {
+          "tx_hash": "58810b477c8e5c3bac85baed5a7c3c9e0e76de4ef7eb",
+          "block_height": 130030438,
+          "timestamp_sec": 1730033319,
+          "method_name": "swap",
+          "args_hash": "sha256:bb67e8d2fd2240ee",
+          "deposit_yocto": "600000000000000000000000"
+        },
+        {
+          "tx_hash": "3cf356030e87ede6d0ba0513732ba798957928791ef3",
+          "block_height": 130030808,
+          "timestamp_sec": 1730033929,
+          "method_name": "remove_liquidity",
+          "args_hash": "sha256:2ac6107bfb15bd67",
+          "deposit_yocto": "1"
+        }
+      ]
+    },
+    {
+      "account_id": "frank-defi.near",
+      "funder_account_id": "okx.near",
+      "account_created_at_sec": 1717472000,
+      "first_call_at_sec": 1730034055,
+      "total_contracts_called": 23,
+      "calls": [
+        {
+          "tx_hash": "0fd9296e7f6c81e10a8542982abdb343bb87373f310b",
+          "block_height": 130030485,
+          "timestamp_sec": 1730034055,
+          "method_name": "add_liquidity",
+          "args_hash": "sha256:745d52a77be25373",
+          "deposit_yocto": "1500000000000000000000000"
+        },
+        {
+          "tx_hash": "68a7c3b0ea2db36fe96cd50dedfa2b42391a036b90d4",
+          "block_height": 130030535,
+          "timestamp_sec": 1730034130,
+          "method_name": "swap",
+          "args_hash": "sha256:8a4596d1c45dcb19",
+          "deposit_yocto": "720000000000000000000000"
+        },
+        {
+          "tx_hash": "194696dde0cfe7845b8379105ae6d1b9e0a498011b29",
+          "block_height": 130030905,
+          "timestamp_sec": 1730034740,
+          "method_name": "remove_liquidity",
+          "args_hash": "sha256:a23fba975eb46a56",
+          "deposit_yocto": "1"
+        }
+      ]
+    },
+    {
+      "account_id": "grace-staker.near",
+      "funder_account_id": "wallet-onboarding.near",
+      "account_created_at_sec": 1716003200,
+      "first_call_at_sec": 1730034866,
+      "total_contracts_called": 26,
+      "calls": [
+        {
+          "tx_hash": "3fc120a4c04c6024a1cf9649bf1b24232ec920b40695",
+          "block_height": 130030582,
+          "timestamp_sec": 1730034866,
+          "method_name": "add_liquidity",
+          "args_hash": "sha256:f5d5b8684a5df25e",
+          "deposit_yocto": "1750000000000000000000000"
+        },
+        {
+          "tx_hash": "46e660f13beddf3b09fd947d818a8211fc6b65d17aef",
+          "block_height": 130030632,
+          "timestamp_sec": 1730034941,
+          "method_name": "swap",
+          "args_hash": "sha256:1bf3ab60aa719cd2",
+          "deposit_yocto": "840000000000000000000000"
+        },
+        {
+          "tx_hash": "75470d10641ff0257108c76911a354c5f15eaac30d55",
+          "block_height": 130031002,
+          "timestamp_sec": 1730035551,
+          "method_name": "remove_liquidity",
+          "args_hash": "sha256:4f6532f5977c033b",
+          "deposit_yocto": "1"
+        }
+      ]
+    }
+  ]
+}

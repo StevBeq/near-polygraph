@@ -1,0 +1,367 @@
+{
+  "schema_version": "polygraph-evidence-v1",
+  "claim_id": 0,
+  "target_contract": "sybil-dex.near",
+  "block_window": {
+    "start_block": 130000000,
+    "end_block": 130050000
+  },
+  "thresholds": {
+    "min_score_bps": 7000
+  },
+  "metrics": {
+    "raw_users": 50,
+    "effective_organic_users": 9,
+    "sybil_discounted_users": 41,
+    "score_bps": 1800,
+    "verdict": "REJECTED"
+  },
+  "heuristic_breakdown": {
+    "h1_funder_clusters": [
+      {
+        "funder_account_id": "bot-master-alpha.near",
+        "total_funded_callers": 22,
+        "retained_account": "alpha-bot-01.near",
+        "discounted_accounts": [
+          "alpha-bot-02.near",
+          "alpha-bot-03.near",
+          "alpha-bot-04.near",
+          "alpha-bot-05.near",
+          "alpha-bot-06.near",
+          "alpha-bot-07.near",
+          "alpha-bot-08.near",
+          "alpha-bot-09.near",
+          "alpha-bot-10.near",
+          "alpha-bot-11.near",
+          "alpha-bot-12.near",
+          "alpha-bot-13.near",
+          "alpha-bot-14.near",
+          "alpha-bot-15.near",
+          "alpha-bot-16.near",
+          "alpha-bot-17.near",
+          "alpha-bot-18.near",
+          "alpha-bot-19.near",
+          "alpha-bot-20.near",
+          "alpha-bot-21.near",
+          "alpha-bot-22.near"
+        ]
+      },
+      {
+        "funder_account_id": "sybil-faucet-99.near",
+        "total_funded_callers": 15,
+        "retained_account": "sybil-99-01.near",
+        "discounted_accounts": [
+          "sybil-99-02.near",
+          "sybil-99-03.near",
+          "sybil-99-04.near",
+          "sybil-99-05.near",
+          "sybil-99-06.near",
+          "sybil-99-07.near",
+          "sybil-99-08.near",
+          "sybil-99-09.near",
+          "sybil-99-10.near",
+          "sybil-99-11.near",
+          "sybil-99-12.near",
+          "sybil-99-13.near",
+          "sybil-99-14.near",
+          "sybil-99-15.near"
+        ]
+      }
+    ],
+    "h2_ephemeral_burners": [
+      "alpha-bot-02.near",
+      "alpha-bot-03.near",
+      "alpha-bot-04.near",
+      "alpha-bot-05.near",
+      "alpha-bot-06.near",
+      "alpha-bot-07.near",
+      "alpha-bot-08.near",
+      "alpha-bot-09.near",
+      "alpha-bot-10.near",
+      "alpha-bot-11.near",
+      "burner-x1.near",
+      "burner-x2.near",
+      "burner-x3.near"
+    ],
+    "h3_uniformity_flagged": [
+      "script-bot-01.near",
+      "script-bot-02.near",
+      "script-bot-03.near",
+      "sybil-99-02.near",
+      "sybil-99-03.near",
+      "sybil-99-04.near",
+      "sybil-99-05.near",
+      "sybil-99-06.near",
+      "sybil-99-07.near",
+      "sybil-99-08.near",
+      "sybil-99-09.near"
+    ]
+  },
+  "flagged_accounts": [
+    {
+      "account_id": "alpha-bot-02.near",
+      "reasons": [
+        "H1_FUNDER_CLUSTER",
+        "H2_EPHEMERAL_BURNER"
+      ]
+    },
+    {
+      "account_id": "alpha-bot-03.near",
+      "reasons": [
+        "H1_FUNDER_CLUSTER",
+        "H2_EPHEMERAL_BURNER"
+      ]
+    },
+    {
+      "account_id": "alpha-bot-04.near",
+      "reasons": [
+        "H1_FUNDER_CLUSTER",
+        "H2_EPHEMERAL_BURNER"
+      ]
+    },
+    {
+      "account_id": "alpha-bot-05.near",
+      "reasons": [
+        "H1_FUNDER_CLUSTER",
+        "H2_EPHEMERAL_BURNER"
+      ]
+    },
+    {
+      "account_id": "alpha-bot-06.near",
+      "reasons": [
+        "H1_FUNDER_CLUSTER",
+        "H2_EPHEMERAL_BURNER"
+      ]
+    },
+    {
+      "account_id": "alpha-bot-07.near",
+      "reasons": [
+        "H1_FUNDER_CLUSTER",
+        "H2_EPHEMERAL_BURNER"
+      ]
+    },
+    {
+      "account_id": "alpha-bot-08.near",
+      "reasons": [
+        "H1_FUNDER_CLUSTER",
+        "H2_EPHEMERAL_BURNER"
+      ]
+    },
+    {
+      "account_id": "alpha-bot-09.near",
+      "reasons": [
+        "H1_FUNDER_CLUSTER",
+        "H2_EPHEMERAL_BURNER"
+      ]
+    },
+    {
+      "account_id": "alpha-bot-10.near",
+      "reasons": [
+        "H1_FUNDER_CLUSTER",
+        "H2_EPHEMERAL_BURNER"
+      ]
+    },
+    {
+      "account_id": "alpha-bot-11.near",
+      "reasons": [
+        "H1_FUNDER_CLUSTER",
+        "H2_EPHEMERAL_BURNER"
+      ]
+    },
+    {
+      "account_id": "alpha-bot-12.near",
+      "reasons": [
+        "H1_FUNDER_CLUSTER"
+      ]
+    },
+    {
+      "account_id": "alpha-bot-13.near",
+      "reasons": [
+        "H1_FUNDER_CLUSTER"
+      ]
+    },
+    {
+      "account_id": "alpha-bot-14.near",
+      "reasons": [
+        "H1_FUNDER_CLUSTER"
+      ]
+    },
+    {
+      "account_id": "alpha-bot-15.near",
+      "reasons": [
+        "H1_FUNDER_CLUSTER"
+      ]
+    },
+    {
+      "account_id": "alpha-bot-16.near",
+      "reasons": [
+        "H1_FUNDER_CLUSTER"
+      ]
+    },
+    {
+      "account_id": "alpha-bot-17.near",
+      "reasons": [
+        "H1_FUNDER_CLUSTER"
+      ]
+    },
+    {
+      "account_id": "alpha-bot-18.near",
+      "reasons": [
+        "H1_FUNDER_CLUSTER"
+      ]
+    },
+    {
+      "account_id": "alpha-bot-19.near",
+      "reasons": [
+        "H1_FUNDER_CLUSTER"
+      ]
+    },
+    {
+      "account_id": "alpha-bot-20.near",
+      "reasons": [
+        "H1_FUNDER_CLUSTER"
+      ]
+    },
+    {
+      "account_id": "alpha-bot-21.near",
+      "reasons": [
+        "H1_FUNDER_CLUSTER"
+      ]
+    },
+    {
+      "account_id": "alpha-bot-22.near",
+      "reasons": [
+        "H1_FUNDER_CLUSTER"
+      ]
+    },
+    {
+      "account_id": "burner-x1.near",
+      "reasons": [
+        "H2_EPHEMERAL_BURNER"
+      ]
+    },
+    {
+      "account_id": "burner-x2.near",
+      "reasons": [
+        "H2_EPHEMERAL_BURNER"
+      ]
+    },
+    {
+      "account_id": "burner-x3.near",
+      "reasons": [
+        "H2_EPHEMERAL_BURNER"
+      ]
+    },
+    {
+      "account_id": "script-bot-01.near",
+      "reasons": [
+        "H3_ROBOTIC_UNIFORMITY"
+      ]
+    },
+    {
+      "account_id": "script-bot-02.near",
+      "reasons": [
+        "H3_ROBOTIC_UNIFORMITY"
+      ]
+    },
+    {
+      "account_id": "script-bot-03.near",
+      "reasons": [
+        "H3_ROBOTIC_UNIFORMITY"
+      ]
+    },
+    {
+      "account_id": "sybil-99-02.near",
+      "reasons": [
+        "H1_FUNDER_CLUSTER",
+        "H3_ROBOTIC_UNIFORMITY"
+      ]
+    },
+    {
+      "account_id": "sybil-99-03.near",
+      "reasons": [
+        "H1_FUNDER_CLUSTER",
+        "H3_ROBOTIC_UNIFORMITY"
+      ]
+    },
+    {
+      "account_id": "sybil-99-04.near",
+      "reasons": [
+        "H1_FUNDER_CLUSTER",
+        "H3_ROBOTIC_UNIFORMITY"
+      ]
+    },
+    {
+      "account_id": "sybil-99-05.near",
+      "reasons": [
+        "H1_FUNDER_CLUSTER",
+        "H3_ROBOTIC_UNIFORMITY"
+      ]
+    },
+    {
+      "account_id": "sybil-99-06.near",
+      "reasons": [
+        "H1_FUNDER_CLUSTER",
+        "H3_ROBOTIC_UNIFORMITY"
+      ]
+    },
+    {
+      "account_id": "sybil-99-07.near",
+      "reasons": [
+        "H1_FUNDER_CLUSTER",
+        "H3_ROBOTIC_UNIFORMITY"
+      ]
+    },
+    {
+      "account_id": "sybil-99-08.near",
+      "reasons": [
+        "H1_FUNDER_CLUSTER",
+        "H3_ROBOTIC_UNIFORMITY"
+      ]
+    },
+    {
+      "account_id": "sybil-99-09.near",
+      "reasons": [
+        "H1_FUNDER_CLUSTER",
+        "H3_ROBOTIC_UNIFORMITY"
+      ]
+    },
+    {
+      "account_id": "sybil-99-10.near",
+      "reasons": [
+        "H1_FUNDER_CLUSTER"
+      ]
+    },
+    {
+      "account_id": "sybil-99-11.near",
+      "reasons": [
+        "H1_FUNDER_CLUSTER"
+      ]
+    },
+    {
+      "account_id": "sybil-99-12.near",
+      "reasons": [
+        "H1_FUNDER_CLUSTER"
+      ]
+    },
+    {
+      "account_id": "sybil-99-13.near",
+      "reasons": [
+        "H1_FUNDER_CLUSTER"
+      ]
+    },
+    {
+      "account_id": "sybil-99-14.near",
+      "reasons": [
+        "H1_FUNDER_CLUSTER"
+      ]
+    },
+    {
+      "account_id": "sybil-99-15.near",
+      "reasons": [
+        "H1_FUNDER_CLUSTER"
+      ]
+    }
+  ],
+  "evidence_hash": "ac50bb6476c351e4f57bc74ef3b2a61c3a5f5dc3f759d5ce2fdc77e9f4ec095b"
+}
